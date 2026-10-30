@@ -117,7 +117,7 @@ export const servicesIntro = [
 
 export const leader = {
   name: "Kimberly A. Dalius",
-  avatar: `${IMG}/kimberly-avatar.png`,
+  avatar: `${IMG}/kim-avatar.jpg`,
   image: `${IMG}/leader-circle.jpg`,
   bio: [
     "Kimberly A. Dalius, M.S.Ed., M.C.P.C., EdD Candidate at USC Rossier – CEO & Founder of Pauseitive Tech Kimberly Dalius is a passionate and empathetic entrepreneur, who wants to bring new opportunities to multiple startups like hers. And she is well aware of the dire need for mobile applications for businesses to grow.",

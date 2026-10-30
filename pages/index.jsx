@@ -300,7 +300,7 @@ const Index = () => {
             <div className="col-xl-7">
               <div className="why-choose-left-image mb-40 wow fadeInLeft delay-0-2s">
                 <img
-                  src="assets/images/pauseitive/event3.jpg"
+                  src="assets/images/pauseitive/kim-6.jpg"
                   alt={leader.name}
                 />
               </div>

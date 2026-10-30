@@ -424,6 +424,36 @@ a.theme-btn:hover,
 .pt-hero .hero-content h1 i {
   color: var(--pt-pink);
 }
+/* Marquee headline: make the outlined word ("Custom") clearly visible */
+.headline-text > span span {
+  opacity: 1;
+  -webkit-text-stroke: 2px;
+  -webkit-text-stroke-color: var(--pt-pink);
+}
+/* About page "617+": outlined number was too faint on black */
+.video-year {
+  -webkit-text-stroke: 2px;
+  -webkit-text-stroke-color: var(--pt-pink);
+}
+/* Home "Meet Our Leader": portrait photo, kept to a sensible size */
+.why-choose-left-image {
+  text-align: center;
+}
+.why-choose-left-image img {
+  width: 100%;
+  max-width: 520px;
+  aspect-ratio: 4 / 5;
+  object-fit: cover;
+  object-position: top;
+  border-radius: 10px;
+}
+/* Hero circle: same height as "DIGITAL", pushed to the right side */
+@media only screen and (min-width: 992px) {
+  .pt-hero .hero-right-image {
+    text-align: right;
+    margin-right: -120px;
+  }
+}
 @media only screen and (max-width: 1399px) {
   .pt-hero .hero-content h1 {
     font-size: 110px;

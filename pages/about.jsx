@@ -136,7 +136,7 @@ const About = () => {
               <div className="team-member wow fadeInUp delay-0-2s">
                 <div className="image">
                   <img
-                    src="assets/images/pauseitive/event3.jpg"
+                    src="assets/images/pauseitive/kim-5.jpg"
                     alt={leader.name}
                   />
                 </div>

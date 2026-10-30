@@ -1,0 +1,478 @@
+/* ------------------------------------------------------------------
+   Pauseitive Tech brand layer.
+   Layout stays 100% Ygency template; this file only applies the
+   Pauseitive colour scheme (lavender + pink on black) and logo sizing.
+------------------------------------------------------------------- */
+:root {
+  --pt-pink: #c795bd;
+}
+body {
+  --ygency-dark-color: #000000;
+  background-color: #000000;
+}
+
+/* Pink buttons like the previous site */
+.theme-btn.style-two,
+a.theme-btn.style-two {
+  color: #fff;
+  background: var(--pt-pink);
+  border-color: var(--pt-pink);
+}
+.theme-btn.style-two:hover,
+a.theme-btn.style-two:hover {
+  color: var(--pt-pink);
+  background: transparent;
+}
+
+/* Logo file is 1024x249 */
+.main-header .logo img,
+.mobile-logo img {
+  max-height: 46px;
+  width: auto;
+}
+.footer-logo img {
+  max-height: 60px;
+  width: auto;
+}
+
+/* Fit 7 menu items on one line */
+@media only screen and (min-width: 992px) {
+  .main-menu .navbar-collapse > ul > li {
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+  .main-menu .navbar-collapse > ul > li > a {
+    white-space: nowrap;
+  }
+}
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .main-menu .navbar-collapse > ul > li {
+    padding-left: 9px;
+    padding-right: 9px;
+  }
+}
+
+/* Font Awesome icons in place of the template's service icon images */
+.service-fa-icon {
+  font-size: 38px;
+  color: var(--ygency-primary-color);
+}
+
+/* Screenshot-sourced images vary in size; keep template card ratios */
+.blog-item .image img,
+.widget-recent-news .image img,
+.widget-gallery .gallery img,
+.widget-author img {
+  object-fit: cover;
+}
+.blog-item .image img {
+  width: 100%;
+  aspect-ratio: 16 / 10;
+}
+.widget-recent-news .image img {
+  width: 80px;
+  height: 80px;
+}
+.widget-gallery .gallery img {
+  width: 100%;
+  aspect-ratio: 1;
+}
+.widget-author img {
+  width: 110px;
+  height: 110px;
+  border-radius: 50%;
+}
+.team-member .image img {
+  width: 100%;
+  aspect-ratio: 4 / 5;
+  object-fit: cover;
+}
+
+/* Header menu hover: sliding underline instead of template arrow */
+@media only screen and (min-width: 992px) {
+  .main-menu .navbar-collapse > ul > li > a {
+    position: relative;
+    text-decoration: none !important;
+    transition: color 0.3s ease;
+  }
+  .main-menu .navbar-collapse > ul > li > a:before {
+    display: none;
+  }
+  .main-menu .navbar-collapse > ul > li > a:after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -6px;
+    width: 100%;
+    height: 2px;
+    border-radius: 2px;
+    background: linear-gradient(90deg, var(--ygency-primary-color), var(--pt-pink));
+    transform: scaleX(0);
+    transform-origin: right;
+    transition: transform 0.35s cubic-bezier(0.65, 0, 0.35, 1);
+  }
+  .main-menu .navbar-collapse > ul > li:hover > a,
+  .main-menu .navbar-collapse > ul > li.current > a {
+    color: var(--pt-pink);
+  }
+  .main-menu .navbar-collapse > ul > li:hover > a:after,
+  .main-menu .navbar-collapse > ul > li.current > a:after {
+    transform: scaleX(1);
+    transform-origin: left;
+  }
+}
+
+/* ---------- Header polish ---------- */
+/* Logo: soft lift on hover */
+.main-header .logo img {
+  transition: transform 0.35s ease, filter 0.35s ease;
+}
+.main-header .logo a:hover img {
+  transform: translateY(-2px) scale(1.03);
+  filter: drop-shadow(0 6px 14px rgba(149, 117, 205, 0.45));
+}
+
+/* Sticky header: dark glass with a gradient hairline */
+.main-header.fixed-header .header-upper {
+  background: rgba(10, 8, 16, 0.78);
+  -webkit-backdrop-filter: blur(14px);
+  backdrop-filter: blur(14px);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.45);
+}
+.main-header.fixed-header .header-upper:after {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: 1px;
+  background: linear-gradient(
+    90deg,
+    transparent,
+    var(--ygency-primary-color),
+    var(--pt-pink),
+    transparent
+  );
+  opacity: 0.6;
+}
+
+@media only screen and (min-width: 992px) {
+  /* Menu text: tiny lift together with the sliding underline */
+  .main-menu .navbar-collapse > ul > li > a {
+    display: inline-block;
+    transition: color 0.3s ease, transform 0.3s ease;
+  }
+  .main-menu .navbar-collapse > ul > li:hover > a {
+    transform: translateY(-2px);
+  }
+  /* The "+" next to Services turns into "x" on hover */
+  .main-menu .navbar-collapse li.dropdown .dropdown-btn span {
+    display: inline-block;
+    transition: transform 0.35s ease, color 0.3s ease;
+  }
+  .main-menu .navbar-collapse li.dropdown:hover .dropdown-btn span {
+    transform: rotate(135deg);
+    color: var(--pt-pink);
+  }
+
+  /* Services dropdown: glass panel that fades and slides down */
+  .main-menu .navbar-collapse li ul {
+    background: rgba(18, 14, 28, 0.95);
+    -webkit-backdrop-filter: blur(12px);
+    backdrop-filter: blur(12px);
+    border: 1px solid rgba(149, 117, 205, 0.25);
+    border-top: 2px solid var(--ygency-primary-color);
+    border-radius: 0 0 12px 12px;
+    padding: 10px 0;
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.5);
+    transform: translateY(8px);
+    transition: opacity 0.3s ease, transform 0.3s ease, visibility 0.3s,
+      top 0.3s ease;
+  }
+  .main-menu .navbar-collapse li:hover > ul {
+    transform: translateY(0);
+  }
+  .main-menu .navbar-collapse li ul li {
+    padding: 0;
+  }
+  .main-menu .navbar-collapse li ul li > a {
+    position: relative;
+    display: block;
+    width: 100%;
+    padding: 9px 22px;
+    font-size: 15px;
+    text-decoration: none;
+    transition: color 0.3s ease, padding-left 0.3s ease, background 0.3s ease;
+  }
+  .main-menu .navbar-collapse li ul li > a:before {
+    content: "";
+    position: absolute;
+    left: 22px;
+    top: 50%;
+    width: 0;
+    height: 2px;
+    background: var(--pt-pink);
+    transform: translateY(-50%);
+    transition: width 0.3s ease;
+  }
+  .main-menu .navbar-collapse li ul li > a:hover {
+    color: var(--pt-pink);
+    padding-left: 44px;
+    background: rgba(149, 117, 205, 0.08);
+  }
+  .main-menu .navbar-collapse li ul li > a:hover:before {
+    width: 14px;
+  }
+}
+
+/* Search + sidebar toggler buttons */
+.nav-search > button {
+  transition: color 0.3s ease, transform 0.3s ease;
+}
+.nav-search > button:hover {
+  color: var(--pt-pink);
+  transform: scale(1.15);
+}
+.menu-sidebar button {
+  transition: transform 0.4s ease, box-shadow 0.4s ease, background 0.4s ease;
+}
+.menu-sidebar button:hover {
+  background: var(--pt-pink);
+  transform: rotate(90deg);
+  box-shadow: 0 0 0 6px rgba(199, 149, 189, 0.18),
+    0 8px 25px rgba(149, 117, 205, 0.45);
+}
+
+/* Template hero graphic is green: shift it to the purple scheme */
+.hero-right-image img {
+  filter: hue-rotate(115deg) saturate(0.75);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .main-menu .navbar-collapse > ul > li > a,
+  .main-menu .navbar-collapse > ul > li > a:after,
+  .main-menu .navbar-collapse li ul,
+  .menu-sidebar button,
+  .main-header .logo img {
+    transition: none !important;
+    transform: none !important;
+  }
+}
+
+/* ---------- Services mega menu ---------- */
+@media only screen and (min-width: 992px) {
+  .main-header .nav-outer,
+  .main-header .main-menu,
+  .main-header .main-menu .navbar-collapse,
+  .main-header .main-menu .navbar-collapse > ul,
+  .main-menu .navbar-collapse > ul > li.has-mega {
+    position: static;
+  }
+  .mega-menu {
+    position: absolute;
+    left: 15px;
+    right: 15px;
+    top: 100%;
+    z-index: 100;
+    display: grid;
+    grid-template-columns: 1fr 280px;
+    background: rgba(14, 11, 22, 0.97);
+    -webkit-backdrop-filter: blur(14px);
+    backdrop-filter: blur(14px);
+    border: 1px solid rgba(149, 117, 205, 0.25);
+    border-top: 2px solid var(--ygency-primary-color);
+    border-radius: 0 0 16px 16px;
+    box-shadow: 0 30px 60px rgba(0, 0, 0, 0.55);
+    overflow: hidden;
+    visibility: hidden;
+    opacity: 0;
+    transform: translateY(12px);
+    transition: opacity 0.3s ease, transform 0.3s ease, visibility 0.3s;
+  }
+  .has-mega:hover > .mega-menu {
+    visibility: visible;
+    opacity: 1;
+    transform: translateY(0);
+  }
+  .mega-menu-main {
+    padding: 35px 40px 30px;
+  }
+  .mega-menu-cols {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+  }
+  .mega-menu-heading {
+    margin-bottom: 20px;
+    font-size: 20px;
+    color: #fff;
+  }
+  .mega-menu-title {
+    display: block;
+    margin-bottom: 12px;
+    padding-bottom: 10px;
+    font-size: 15px;
+    font-weight: 600;
+    color: var(--ygency-primary-color);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+  }
+  /* reset template dropdown rules inside the mega menu */
+  .main-menu .navbar-collapse .mega-menu ul,
+  .main-menu .navbar-collapse .mega-menu ol {
+    position: static;
+    display: block;
+    visibility: visible;
+    opacity: 1;
+    transform: none;
+    min-width: 0;
+    padding: 0;
+    margin: 0;
+    background: none;
+    border: none;
+    box-shadow: none;
+    list-style: none;
+  }
+  .main-menu .navbar-collapse .mega-menu li {
+    display: block;
+    padding: 0;
+  }
+  .main-menu .navbar-collapse .mega-menu li > a {
+    display: block;
+    padding: 7px 0;
+    font-size: 13px;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+    color: rgba(255, 255, 255, 0.85);
+    text-decoration: none;
+    transition: color 0.3s ease, padding-left 0.3s ease;
+  }
+  .main-menu .navbar-collapse .mega-menu li > a:before {
+    left: 0;
+  }
+  .main-menu .navbar-collapse .mega-menu li > a:hover {
+    color: var(--pt-pink);
+    padding-left: 22px;
+    background: none;
+  }
+  .mega-menu-side {
+    padding: 35px 30px 30px;
+    background: linear-gradient(
+      160deg,
+      rgba(149, 117, 205, 0.22),
+      rgba(199, 149, 189, 0.12)
+    );
+    border-left: 1px solid rgba(149, 117, 205, 0.2);
+  }
+  .main-menu .navbar-collapse .mega-menu-side li > a span {
+    display: inline-block;
+    width: 28px;
+    color: var(--pt-pink);
+  }
+  .mega-menu-side .theme-btn {
+    font-size: 14px;
+  }
+}
+
+/* Purple services marquee: slower, white text */
+.headline-wrap > span {
+  -webkit-animation-duration: 45s;
+  animation-duration: 45s;
+}
+.headline-wrap > span .marquee-item,
+.headline-wrap > span .marquee-item i,
+.headline-wrap > span .marquee-item b {
+  color: #fff;
+}
+
+/* White text on every purple-background button / badge */
+.theme-btn:hover,
+a.theme-btn:hover,
+.explore-more,
+.social-style-two a:hover,
+.pagination li.active .page-link,
+.pagination li:hover:not(.disabled) .page-link,
+.main-slider-arrows button,
+.slider-arrow-btns .slick-arrow:focus,
+.slider-arrow-btns .slick-arrow:hover,
+.our-location-address .callto i,
+.pricing-plan-item .badge,
+.project-timeline:hover .right-btn .details-btn,
+.what-we-do-item:hover .number span,
+.feature-item-three:hover .top-part .details-btn,
+.footer-contact-info .phone-number,
+.footer-contact-info .phone-number i,
+.footer-six .footer-newsletter button,
+.contact-info-item .icon,
+.feature-six-item .icon {
+  color: #fff;
+}
+
+/* Home hero heading: smaller, stacked, no overlap on the image */
+.pt-hero .hero-content h1 {
+  font-size: 125px;
+  line-height: 1;
+  margin-bottom: 60px;
+}
+.pt-hero .hero-content h1 span,
+.pt-hero .hero-content h1 i {
+  display: block;
+}
+.pt-hero .hero-content h1 span {
+  margin: 6px 0;
+}
+.pt-hero .hero-content h1 i {
+  color: var(--pt-pink);
+}
+@media only screen and (max-width: 1399px) {
+  .pt-hero .hero-content h1 {
+    font-size: 110px;
+  }
+}
+@media only screen and (max-width: 1199px) {
+  .pt-hero .hero-content h1 {
+    font-size: 95px;
+    margin-bottom: 50px;
+  }
+}
+@media only screen and (max-width: 991px) {
+  .pt-hero .hero-content h1 {
+    font-size: 80px;
+    margin-bottom: 40px;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .pt-hero .hero-content h1 {
+    font-size: 62px;
+    margin-bottom: 35px;
+  }
+}
+@media only screen and (max-width: 479px) {
+  .pt-hero .hero-content h1 {
+    font-size: 48px;
+  }
+}
+@media only screen and (max-width: 375px) {
+  .pt-hero .hero-content h1 {
+    font-size: 40px;
+    max-width: none;
+  }
+}
+
+/* About banner heading: use the full container width */
+@media only screen and (min-width: 1200px) {
+  .hero-title.pt-wide-title {
+    font-size: 118px;
+  }
+  .hero-title.pt-wide-title img.mxw-20 {
+    max-width: 16%;
+  }
+  .hero-title.pt-wide-title img.mxw-40 {
+    max-width: 26%;
+  }
+}
+@media only screen and (min-width: 1400px) {
+  .hero-title.pt-wide-title {
+    font-size: 125px;
+  }
+}

@@ -29,7 +29,7 @@ const Shop = () => {
               <div className="product-item wow fadeInUp delay-0-2s">
                 <div className="image">
                   <img
-                    src="assets/images/products/product1.jpg"
+                    src="/assets/images/products/product1.jpg"
                     alt="Product"
                   />
                 </div>
@@ -62,7 +62,7 @@ const Shop = () => {
               <div className="product-item wow fadeInUp delay-0-4s">
                 <div className="image">
                   <img
-                    src="assets/images/products/product2.jpg"
+                    src="/assets/images/products/product2.jpg"
                     alt="Product"
                   />
                 </div>
@@ -95,7 +95,7 @@ const Shop = () => {
               <div className="product-item wow fadeInUp delay-0-6s">
                 <div className="image">
                   <img
-                    src="assets/images/products/product3.jpg"
+                    src="/assets/images/products/product3.jpg"
                     alt="Product"
                   />
                 </div>
@@ -128,7 +128,7 @@ const Shop = () => {
               <div className="product-item wow fadeInUp delay-0-2s">
                 <div className="image">
                   <img
-                    src="assets/images/products/product4.jpg"
+                    src="/assets/images/products/product4.jpg"
                     alt="Product"
                   />
                 </div>
@@ -161,7 +161,7 @@ const Shop = () => {
               <div className="product-item wow fadeInUp delay-0-4s">
                 <div className="image">
                   <img
-                    src="assets/images/products/product5.jpg"
+                    src="/assets/images/products/product5.jpg"
                     alt="Product"
                   />
                 </div>
@@ -194,7 +194,7 @@ const Shop = () => {
               <div className="product-item wow fadeInUp delay-0-6s">
                 <div className="image">
                   <img
-                    src="assets/images/products/product6.jpg"
+                    src="/assets/images/products/product6.jpg"
                     alt="Product"
                   />
                 </div>
@@ -227,7 +227,7 @@ const Shop = () => {
               <div className="product-item wow fadeInUp delay-0-2s">
                 <div className="image">
                   <img
-                    src="assets/images/products/product7.jpg"
+                    src="/assets/images/products/product7.jpg"
                     alt="Product"
                   />
                 </div>
@@ -260,7 +260,7 @@ const Shop = () => {
               <div className="product-item wow fadeInUp delay-0-4s">
                 <div className="image">
                   <img
-                    src="assets/images/products/product8.jpg"
+                    src="/assets/images/products/product8.jpg"
                     alt="Product"
                   />
                 </div>
@@ -293,7 +293,7 @@ const Shop = () => {
               <div className="product-item wow fadeInUp delay-0-6s">
                 <div className="image">
                   <img
-                    src="assets/images/products/product9.jpg"
+                    src="/assets/images/products/product9.jpg"
                     alt="Product"
                   />
                 </div>

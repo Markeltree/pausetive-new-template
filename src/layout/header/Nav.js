@@ -10,7 +10,7 @@ const Nav = ({ singleMenu }) => {
             <Link legacyBehavior href="/">
               <a>
                 <img
-                  src="assets/images/logos/pauseitive-logo.png"
+                  src="/assets/images/logos/pauseitive-logo.png"
                   alt="Pauseitive Tech"
                   title="Pauseitive Tech"
                 />

@@ -21,7 +21,7 @@ const About = () => {
       {/* Page Banner Section Start */}
       <section
         className="page-banner pt-210 rpt-150 pb-45 rpb-50 rel z-1"
-        style={{ backgroundImage: "url(assets/images/hero/hero-two-bg.png)" }}
+        style={{ backgroundImage: "url(/assets/images/hero/hero-two-bg.png)" }}
       >
         <div className="container">
           <div className="row">
@@ -30,19 +30,19 @@ const About = () => {
                 Your Go-To Platform
                 <img
                   className="mxw-20"
-                  src="assets/images/banner/inside-title1.png"
+                  src="/assets/images/banner/inside-title1.png"
                   alt="title"
                 />
                 <img
                   className="mxw-40"
-                  src="assets/images/banner/inside-title2.png"
+                  src="/assets/images/banner/inside-title2.png"
                   alt="title"
                 />
                 For Digital Solutions
                 <span className="arrow">
                   <img
                     className="wow fadeInLeft delay-0-6s"
-                    src="assets/images/hero/title-arrow.png"
+                    src="/assets/images/hero/title-arrow.png"
                     alt="Arrow"
                   />
                 </span>
@@ -57,7 +57,7 @@ const About = () => {
         <div className="container-fluid">
           <div className="video-part style-two mb-40 wow fadeInUp delay-0-2s">
             <img
-              src="assets/images/pauseitive/about-team.jpg"
+              src="/assets/images/pauseitive/about-team.jpg"
               alt="Pauseitive Tech team"
             />
           </div>
@@ -79,7 +79,7 @@ const About = () => {
                 617+
                 <img
                   className="leaf-shape"
-                  src="assets/images/video/leaf.png"
+                  src="/assets/images/video/leaf.png"
                   alt="Leaf"
                 />
               </div>
@@ -136,7 +136,7 @@ const About = () => {
               <div className="team-member wow fadeInUp delay-0-2s">
                 <div className="image">
                   <img
-                    src="assets/images/pauseitive/kim-5.jpg"
+                    src="/assets/images/pauseitive/kim-5.jpg"
                     alt={leader.name}
                   />
                 </div>
@@ -180,7 +180,7 @@ const About = () => {
       {/* Statistics Area start */}
       <div
         className="statistics-area pt-100 rpt-70 rel z-1"
-        style={{ backgroundImage: "url(assets/images/hero/hero-two-bg.png)" }}
+        style={{ backgroundImage: "url(/assets/images/hero/hero-two-bg.png)" }}
       >
         <div className="container">
           <div className="row justify-content-between">

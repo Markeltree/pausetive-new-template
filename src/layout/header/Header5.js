@@ -59,8 +59,8 @@ const Header5 = ({ singleMenu, dark }) => {
                     <img
                       src={
                         dark
-                          ? "assets/images/logos/logo-white.png"
-                          : "assets/images/logos/logo.png"
+                          ? "/assets/images/logos/logo-white.png"
+                          : "/assets/images/logos/logo.png"
                       }
                       alt="Logo"
                       title="Logo"
@@ -94,7 +94,7 @@ const Header5 = ({ singleMenu, dark }) => {
               <div className="menu-sidebar">
                 <button>
                   <img
-                    src="assets/images/icons/toggler-white.svg"
+                    src="/assets/images/icons/toggler-white.svg"
                     alt="Toggler"
                   />
                 </button>

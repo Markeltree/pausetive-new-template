@@ -1,5 +1,5 @@
 // Service detail pages content (carried over from the previous website)
-const IMG = "assets/images/pauseitive/services";
+const IMG = "/assets/images/pauseitive/services";
 
 export const serviceHref = (slug) => `/service-details?service=${slug}`;
 

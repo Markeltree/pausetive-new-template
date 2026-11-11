@@ -6,7 +6,7 @@ const DefaultFooter = () => {
     <footer
       className="main-footer rel z-1"
       style={{
-        backgroundImage: "url(assets/images/footer/footer-bg-shape.png)",
+        backgroundImage: "url(/assets/images/footer/footer-bg-shape.png)",
       }}
     >
       <div className="container container-1290">
@@ -17,7 +17,7 @@ const DefaultFooter = () => {
                 <Link legacyBehavior href="/">
                   <a>
                     <img
-                      src="assets/images/logos/pauseitive-logo.png"
+                      src="/assets/images/logos/pauseitive-logo.png"
                       alt="Pauseitive Tech"
                     />
                   </a>
@@ -40,7 +40,7 @@ const DefaultFooter = () => {
             <div className="footer-left-content pt-80">
               <div className="lets-work mb-50 wow fadeInUp delay-0-2s animated">
                 <img
-                  src="assets/images/footer/lets-work.png"
+                  src="/assets/images/footer/lets-work.png"
                   alt="Let's Work Together"
                 />
                 <span>Let’s Work Together</span>

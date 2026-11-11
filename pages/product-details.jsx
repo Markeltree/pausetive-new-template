@@ -21,7 +21,7 @@ const ProductDetails = () => {
                       eventKey="preview1"
                     >
                       <img
-                        src="assets/images/shop/preview1.jpg"
+                        src="/assets/images/shop/preview1.jpg"
                         alt="Perview"
                       />
                     </Tab.Pane>
@@ -30,7 +30,7 @@ const ProductDetails = () => {
                       eventKey="preview2"
                     >
                       <img
-                        src="assets/images/shop/preview1.jpg"
+                        src="/assets/images/shop/preview1.jpg"
                         alt="Perview"
                       />
                     </Tab.Pane>
@@ -39,7 +39,7 @@ const ProductDetails = () => {
                       eventKey="preview3"
                     >
                       <img
-                        src="assets/images/shop/preview1.jpg"
+                        src="/assets/images/shop/preview1.jpg"
                         alt="Perview"
                       />
                     </Tab.Pane>
@@ -51,7 +51,7 @@ const ProductDetails = () => {
                       eventKey="preview1"
                       className="thumb-item"
                     >
-                      <img src="assets/images/shop/thumb1.jpg" alt="Thumb" />
+                      <img src="/assets/images/shop/thumb1.jpg" alt="Thumb" />
                     </Nav.Link>
                     <Nav.Link
                       as="a"
@@ -59,7 +59,7 @@ const ProductDetails = () => {
                       eventKey="preview2"
                       className="thumb-item"
                     >
-                      <img src="assets/images/shop/thumb2.jpg" alt="Thumb" />
+                      <img src="/assets/images/shop/thumb2.jpg" alt="Thumb" />
                     </Nav.Link>
                     <Nav.Link
                       as="a"
@@ -67,7 +67,7 @@ const ProductDetails = () => {
                       eventKey="preview3"
                       className="thumb-item"
                     >
-                      <img src="assets/images/shop/thumb3.jpg" alt="Thumb" />
+                      <img src="/assets/images/shop/thumb3.jpg" alt="Thumb" />
                     </Nav.Link>
                   </Nav>
                 </div>
@@ -214,7 +214,7 @@ const ProductDetails = () => {
               <div className="product-item wow fadeInUp delay-0-2s">
                 <div className="image">
                   <img
-                    src="assets/images/products/product1.jpg"
+                    src="/assets/images/products/product1.jpg"
                     alt="Product"
                   />
                 </div>
@@ -247,7 +247,7 @@ const ProductDetails = () => {
               <div className="product-item wow fadeInUp delay-0-4s">
                 <div className="image">
                   <img
-                    src="assets/images/products/product2.jpg"
+                    src="/assets/images/products/product2.jpg"
                     alt="Product"
                   />
                 </div>
@@ -280,7 +280,7 @@ const ProductDetails = () => {
               <div className="product-item wow fadeInUp delay-0-6s">
                 <div className="image">
                   <img
-                    src="assets/images/products/product3.jpg"
+                    src="/assets/images/products/product3.jpg"
                     alt="Product"
                   />
                 </div>

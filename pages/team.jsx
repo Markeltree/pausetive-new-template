@@ -14,7 +14,7 @@ const Team = () => {
           <div className="row gap-120 align-items-center justify-content-between">
             <div className="col-lg-5">
               <div className="skill-image wow fadeInUp delay-0-2s">
-                <img src="assets/images/team/skill-left.png" alt="Skill" />
+                <img src="/assets/images/team/skill-left.png" alt="Skill" />
               </div>
             </div>
             <div className="col-lg-7">
@@ -38,7 +38,7 @@ const Team = () => {
       {/* Team Area start */}
       <section
         className="team-page-area pt-130 rpt-100 pb-70 rpb-40 rel"
-        style={{ backgroundImage: "url(assets/images/hero/hero-two-bg.png)" }}
+        style={{ backgroundImage: "url(/assets/images/hero/hero-two-bg.png)" }}
       >
         <div className="container container-1290">
           <div className="row justify-content-center">
@@ -54,7 +54,7 @@ const Team = () => {
               <div className="team-member style-two wow fadeInUp delay-0-2s">
                 <div className="image">
                   <img
-                    src="assets/images/team/member-two1.jpg"
+                    src="/assets/images/team/member-two1.jpg"
                     alt="Team Member"
                   />
                 </div>
@@ -95,7 +95,7 @@ const Team = () => {
               <div className="team-member style-two wow fadeInUp delay-0-4s">
                 <div className="image">
                   <img
-                    src="assets/images/team/member-two2.jpg"
+                    src="/assets/images/team/member-two2.jpg"
                     alt="Team Member"
                   />
                 </div>
@@ -136,7 +136,7 @@ const Team = () => {
               <div className="team-member style-two wow fadeInUp delay-0-6s">
                 <div className="image">
                   <img
-                    src="assets/images/team/member-two3.jpg"
+                    src="/assets/images/team/member-two3.jpg"
                     alt="Team Member"
                   />
                 </div>
@@ -177,7 +177,7 @@ const Team = () => {
               <div className="team-member style-two wow fadeInUp delay-0-2s">
                 <div className="image">
                   <img
-                    src="assets/images/team/member-two4.jpg"
+                    src="/assets/images/team/member-two4.jpg"
                     alt="Team Member"
                   />
                 </div>
@@ -218,7 +218,7 @@ const Team = () => {
               <div className="team-member style-two wow fadeInUp delay-0-4s">
                 <div className="image">
                   <img
-                    src="assets/images/team/member-two5.jpg"
+                    src="/assets/images/team/member-two5.jpg"
                     alt="Team Member"
                   />
                 </div>
@@ -259,7 +259,7 @@ const Team = () => {
               <div className="team-member style-two wow fadeInUp delay-0-6s">
                 <div className="image">
                   <img
-                    src="assets/images/team/member-two6.jpg"
+                    src="/assets/images/team/member-two6.jpg"
                     alt="Team Member"
                   />
                 </div>
@@ -300,7 +300,7 @@ const Team = () => {
               <div className="team-member style-two wow fadeInUp delay-0-2s">
                 <div className="image">
                   <img
-                    src="assets/images/team/member-two7.jpg"
+                    src="/assets/images/team/member-two7.jpg"
                     alt="Team Member"
                   />
                 </div>
@@ -341,7 +341,7 @@ const Team = () => {
               <div className="team-member style-two wow fadeInUp delay-0-4s">
                 <div className="image">
                   <img
-                    src="assets/images/team/member-two8.jpg"
+                    src="/assets/images/team/member-two8.jpg"
                     alt="Team Member"
                   />
                 </div>
@@ -382,7 +382,7 @@ const Team = () => {
               <div className="team-member style-two wow fadeInUp delay-0-6s">
                 <div className="image">
                   <img
-                    src="assets/images/team/member-two9.jpg"
+                    src="/assets/images/team/member-two9.jpg"
                     alt="Team Member"
                   />
                 </div>

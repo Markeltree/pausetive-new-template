@@ -34,12 +34,12 @@ const Index3OnePage = () => {
             </div>
             <div className="col-xl-3 col-lg-4 mx-lg-auto">
               <div className="hero-three-image mt-50 wow fadeInRight delay-0-2s">
-                <img src="assets/images/hero/hero-three.jpg" alt="Hero" />
+                <img src="/assets/images/hero/hero-three.jpg" alt="Hero" />
               </div>
             </div>
           </div>
           <div className="hero-three-shape">
-            <img src="assets/images/hero/hero-three-shape.png" alt="Shape" />
+            <img src="/assets/images/hero/hero-three-shape.png" alt="Shape" />
           </div>
         </div>
       </section>
@@ -73,7 +73,7 @@ const Index3OnePage = () => {
             <div className="col-xl-5 col-lg-6 align-self-center">
               <div className="about-three-image rmb-55 wow fadeInLeft delay-0-2s">
                 <img
-                  src="assets/images/about/about-three.jpg"
+                  src="/assets/images/about/about-three.jpg"
                   alt="Circle Text"
                 />
               </div>
@@ -81,7 +81,7 @@ const Index3OnePage = () => {
             <div className="col-xl-4 col-lg-5 offset-xl-1">
               <div className="about-three-content wow fadeInRight delay-0-2s">
                 <img
-                  src="assets/images/about/circle-text.svg"
+                  src="/assets/images/about/circle-text.svg"
                   alt="Circle Text"
                 />
                 <h4>
@@ -106,7 +106,7 @@ const Index3OnePage = () => {
           <span className="year">1990</span>
           <img
             className="shape leaf"
-            src="assets/images/about/leaf.png"
+            src="/assets/images/about/leaf.png"
             alt="Leaf"
           />
         </div>
@@ -244,7 +244,7 @@ const Index3OnePage = () => {
             <SwiperSlide className="project-item style-three wow fadeInUp delay-0-2s">
               <div className="image">
                 <img
-                  src="assets/images/projects/project-slider1.jpg"
+                  src="/assets/images/projects/project-slider1.jpg"
                   alt="Project Slider"
                 />
               </div>
@@ -269,7 +269,7 @@ const Index3OnePage = () => {
             <SwiperSlide className="project-item style-three wow fadeInUp delay-0-4s">
               <div className="image">
                 <img
-                  src="assets/images/projects/project-slider2.jpg"
+                  src="/assets/images/projects/project-slider2.jpg"
                   alt="Project Slider"
                 />
               </div>
@@ -294,7 +294,7 @@ const Index3OnePage = () => {
             <SwiperSlide className="project-item style-three wow fadeInUp delay-0-2s">
               <div className="image">
                 <img
-                  src="assets/images/projects/project-slider1.jpg"
+                  src="/assets/images/projects/project-slider1.jpg"
                   alt="Project Slider"
                 />
               </div>
@@ -319,7 +319,7 @@ const Index3OnePage = () => {
             <SwiperSlide className="project-item style-three wow fadeInUp delay-0-2s">
               <div className="image">
                 <img
-                  src="assets/images/projects/project-slider2.jpg"
+                  src="/assets/images/projects/project-slider2.jpg"
                   alt="Project Slider"
                 />
               </div>
@@ -379,7 +379,7 @@ const Index3OnePage = () => {
                 </div>
                 <div className="image">
                   <img
-                    src="assets/images/about/work-step-image1.jpg"
+                    src="/assets/images/about/work-step-image1.jpg"
                     alt="Work Step Image"
                   />
                 </div>
@@ -403,7 +403,7 @@ const Index3OnePage = () => {
                 </div>
                 <div className="image">
                   <img
-                    src="assets/images/about/work-step-image1.jpg"
+                    src="/assets/images/about/work-step-image1.jpg"
                     alt="Work Step Image"
                   />
                 </div>
@@ -428,7 +428,7 @@ const Index3OnePage = () => {
           <div className="row gap-60 align-items-center">
             <div className="col-xl-9">
               <div className="video-part mb-55 wow fadeInLeft delay-0-2s">
-                <img src="assets/images/video/video-bg.jpg" alt="Video" />
+                <img src="/assets/images/video/video-bg.jpg" alt="Video" />
                 <a
                   href="https://www.youtube.com/watch?v=9Y7ma241N8k"
                   className="mfp-iframe video-play"
@@ -609,7 +609,7 @@ const Index3OnePage = () => {
           <div className="testimonial-two-part">
             <div className="circle-text text-center mb-75">
               <img
-                src="assets/images/testimonials/circle-text.png"
+                src="/assets/images/testimonials/circle-text.png"
                 alt="Circle Text"
               />
             </div>
@@ -632,7 +632,7 @@ const Index3OnePage = () => {
                   <div className="testimonial-author">
                     <div className="author-image">
                       <img
-                        src="assets/images/testimonials/author1.png"
+                        src="/assets/images/testimonials/author1.png"
                         alt="Author Image"
                       />
                     </div>
@@ -665,7 +665,7 @@ const Index3OnePage = () => {
                   <div className="testimonial-author">
                     <div className="author-image">
                       <img
-                        src="assets/images/testimonials/author1.png"
+                        src="/assets/images/testimonials/author1.png"
                         alt="Author Image"
                       />
                     </div>
@@ -698,7 +698,7 @@ const Index3OnePage = () => {
                   <div className="testimonial-author">
                     <div className="author-image">
                       <img
-                        src="assets/images/testimonials/author1.png"
+                        src="/assets/images/testimonials/author1.png"
                         alt="Author Image"
                       />
                     </div>
@@ -731,7 +731,7 @@ const Index3OnePage = () => {
                   <div className="testimonial-author">
                     <div className="author-image">
                       <img
-                        src="assets/images/testimonials/author1.png"
+                        src="/assets/images/testimonials/author1.png"
                         alt="Author Image"
                       />
                     </div>
@@ -797,7 +797,7 @@ const Index3OnePage = () => {
                   </Link>
                 </div>
                 <div className="image">
-                  <img src="assets/images/blog/blog10.jpg" alt="Blog" />
+                  <img src="/assets/images/blog/blog10.jpg" alt="Blog" />
                 </div>
                 <h4>
                   <Link legacyBehavior href="/blog-details">
@@ -836,7 +836,7 @@ const Index3OnePage = () => {
                   </Link>
                 </div>
                 <div className="image">
-                  <img src="assets/images/blog/blog11.jpg" alt="Blog" />
+                  <img src="/assets/images/blog/blog11.jpg" alt="Blog" />
                 </div>
                 <h4>
                   <Link legacyBehavior href="/blog-details">
@@ -878,7 +878,7 @@ const Index3OnePage = () => {
                   </Link>
                 </div>
                 <div className="image">
-                  <img src="assets/images/blog/blog12.jpg" alt="Blog" />
+                  <img src="/assets/images/blog/blog12.jpg" alt="Blog" />
                 </div>
                 <h4>
                   <Link legacyBehavior href="/blog-details">

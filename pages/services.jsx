@@ -13,7 +13,7 @@ const Services = () => {
       {/* Page Banner Section Start */}
       <section
         className="page-banner pt-210 rpt-150 pb-45 rpb-50 rel z-1"
-        style={{ backgroundImage: "url(assets/images/hero/hero-two-bg.png)" }}
+        style={{ backgroundImage: "url(/assets/images/hero/hero-two-bg.png)" }}
       >
         <div className="container">
           <div className="row">
@@ -22,7 +22,7 @@ const Services = () => {
                 End To End Solutions
                 <img
                   className="mxw-10 leaf"
-                  src="assets/images/banner/leaf.png"
+                  src="/assets/images/banner/leaf.png"
                   alt="Leaf"
                 />
                 For Your Need

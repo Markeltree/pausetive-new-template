@@ -13,7 +13,7 @@ const ProjectList = () => {
           <div className="project-item style-two">
             <div className="image wow fadeInLeft delay-0-2s">
               <img
-                src="assets/images/projects/project-list1.jpg"
+                src="/assets/images/projects/project-list1.jpg"
                 alt="Project List"
               />
               <Link legacyBehavior href="/project-details">
@@ -70,7 +70,7 @@ const ProjectList = () => {
             </div>
             <div className="image wow fadeInRight delay-0-2s">
               <img
-                src="assets/images/projects/project-list2.jpg"
+                src="/assets/images/projects/project-list2.jpg"
                 alt="Project List"
               />
               <Link legacyBehavior href="/project-details">
@@ -83,7 +83,7 @@ const ProjectList = () => {
           <div className="project-item style-two">
             <div className="image wow fadeInLeft delay-0-2s">
               <img
-                src="assets/images/projects/project-list3.jpg"
+                src="/assets/images/projects/project-list3.jpg"
                 alt="Project List"
               />
               <Link legacyBehavior href="/project-details">
@@ -140,7 +140,7 @@ const ProjectList = () => {
             </div>
             <div className="image wow fadeInRight delay-0-2s">
               <img
-                src="assets/images/projects/project-list4.jpg"
+                src="/assets/images/projects/project-list4.jpg"
                 alt="Project List"
               />
               <Link legacyBehavior href="/project-details">
@@ -153,7 +153,7 @@ const ProjectList = () => {
           <div className="project-item style-two">
             <div className="image wow fadeInLeft delay-0-2s">
               <img
-                src="assets/images/projects/project-list5.jpg"
+                src="/assets/images/projects/project-list5.jpg"
                 alt="Project List"
               />
               <Link legacyBehavior href="/project-details">
@@ -210,7 +210,7 @@ const ProjectList = () => {
             </div>
             <div className="image wow fadeInRight delay-0-2s">
               <img
-                src="assets/images/projects/project-list6.jpg"
+                src="/assets/images/projects/project-list6.jpg"
                 alt="Project List"
               />
               <Link legacyBehavior href="/project-details">

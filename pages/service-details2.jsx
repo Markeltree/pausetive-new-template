@@ -56,7 +56,7 @@ const ServiceDetails2 = () => {
             </div>
             <div className="col-lg-10">
               <div className="image pt-30 wow fadeInUp delay-0-2s">
-                <img src="assets/images/about/about-bottom.jpg" alt="About" />
+                <img src="/assets/images/about/about-bottom.jpg" alt="About" />
               </div>
             </div>
           </div>
@@ -325,7 +325,7 @@ const ServiceDetails2 = () => {
           className="footer-bg-shape"
           style={{
             backgroundImage:
-              "url(assets/images/footer/footer-bg-shape-two.png)",
+              "url(/assets/images/footer/footer-bg-shape-two.png)",
           }}
         />
       </section>
@@ -336,7 +336,7 @@ const ServiceDetails2 = () => {
           <div className="row align-items-center gap-100">
             <div className="col-lg-5">
               <div className="faq-iamge-part rmb-55 wow fadeInLeft delay-0-2s">
-                <img src="assets/images/faqs/faq-two.jpg" alt="FAQs" />
+                <img src="/assets/images/faqs/faq-two.jpg" alt="FAQs" />
               </div>
             </div>
             <div className="col-lg-7">
@@ -371,12 +371,12 @@ const ServiceDetails2 = () => {
         <div className="faq-shapes">
           <img
             className="shape left"
-            src="assets/images/shapes/ellipse-left.png"
+            src="/assets/images/shapes/ellipse-left.png"
             alt="Shape"
           />
           <img
             className="shape right"
-            src="assets/images/shapes/ellipse-right.png"
+            src="/assets/images/shapes/ellipse-right.png"
             alt="Shape"
           />
         </div>

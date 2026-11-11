@@ -10,7 +10,7 @@ const Testimonials = ({ className = "pt-95 rpt-65 pb-130 rpb-100" }) => {
           <div className="col-lg-6">
             <div className="image-border-shape rmb-20 wow fadeInRight delay-0-2s">
               <img
-                src="assets/images/pauseitive/event1.jpg"
+                src="/assets/images/pauseitive/event1.jpg"
                 alt="Kimberly A. Dalius"
               />
               <div className="bottom-border" />

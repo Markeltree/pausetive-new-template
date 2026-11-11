@@ -5,7 +5,7 @@ const Footer2 = ({ dark }) => {
     <footer
       className="main-footer footer-two pt-100 pb-50 rpb-20 rel z-1"
       style={{
-        backgroundImage: "url(assets/images/footer/footer-bg-shape.png)",
+        backgroundImage: "url(/assets/images/footer/footer-bg-shape.png)",
       }}
     >
       <div className="container container-1290">

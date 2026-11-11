@@ -15,7 +15,7 @@ const Index2OnePage = () => {
       <section
         id="home"
         className="hero-area-two pt-220 rpt-150 pb-80 rpb-50 rel z-1"
-        style={{ backgroundImage: "url(assets/images/hero/hero-two-bg.png)" }}
+        style={{ backgroundImage: "url(/assets/images/hero/hero-two-bg.png)" }}
       >
         <div className="container">
           <h1 className="hero-title mb-100 rmb-50 wow fadeInUp delay-0-2s">
@@ -23,7 +23,7 @@ const Index2OnePage = () => {
             <span className="arrow">
               <img
                 className="wow fadeInLeft delay-0-6s"
-                src="assets/images/hero/title-arrow.png"
+                src="/assets/images/hero/title-arrow.png"
                 alt="Arrow"
               />
             </span>
@@ -39,14 +39,14 @@ const Index2OnePage = () => {
                 </p>
                 <img
                   className="mt-20"
-                  src="assets/images/hero/arrow.png"
+                  src="/assets/images/hero/arrow.png"
                   alt="Arrow"
                 />
                 <div className="authors-text mt-45">
-                  <img src="assets/images/hero/author1.png" alt="Author" />
-                  <img src="assets/images/hero/author2.png" alt="Author" />
-                  <img src="assets/images/hero/author3.png" alt="Author" />
-                  <img src="assets/images/hero/author4.png" alt="Author" />
+                  <img src="/assets/images/hero/author1.png" alt="Author" />
+                  <img src="/assets/images/hero/author2.png" alt="Author" />
+                  <img src="/assets/images/hero/author3.png" alt="Author" />
+                  <img src="/assets/images/hero/author4.png" alt="Author" />
                   <i className="fal fa-plus" />
                   <span className="text">100+ Popular Clients</span>
                 </div>
@@ -54,7 +54,7 @@ const Index2OnePage = () => {
             </div>
             <div className="col-lg-6">
               <div className="hero-two-image mb-50 wow zoomIn delay-0-2s">
-                <img src="assets/images/hero/hero-two.jpg" alt="Hero" />
+                <img src="/assets/images/hero/hero-two.jpg" alt="Hero" />
               </div>
             </div>
             <div className="col-lg-2">
@@ -80,11 +80,11 @@ const Index2OnePage = () => {
                 className="advertise-banner style-one bgc-primary"
                 style={{
                   backgroundImage:
-                    "url(assets/images/banner/add-banner-bg.png)",
+                    "url(/assets/images/banner/add-banner-bg.png)",
                 }}
               >
                 <div className="image">
-                  <img src="assets/images/banner/add-banner.png" alt="Banner" />
+                  <img src="/assets/images/banner/add-banner.png" alt="Banner" />
                 </div>
                 <div className="content mt-20">
                   <span className="number">150+</span>
@@ -98,16 +98,16 @@ const Index2OnePage = () => {
               <div
                 className="advertise-banner style-two bg-white"
                 style={{
-                  backgroundImage: "url(assets/images/banner/star-vector.png)",
+                  backgroundImage: "url(/assets/images/banner/star-vector.png)",
                 }}
               >
                 <h3>Innovative Web Development Solutions</h3>
                 <hr className="mb-35" />
                 <div className="authors-text">
-                  <img src="assets/images/hero/author1.png" alt="Author" />
-                  <img src="assets/images/hero/author2.png" alt="Author" />
-                  <img src="assets/images/hero/author3.png" alt="Author" />
-                  <img src="assets/images/hero/author4.png" alt="Author" />
+                  <img src="/assets/images/hero/author1.png" alt="Author" />
+                  <img src="/assets/images/hero/author2.png" alt="Author" />
+                  <img src="/assets/images/hero/author3.png" alt="Author" />
+                  <img src="/assets/images/hero/author4.png" alt="Author" />
                   <i className="fal fa-plus" />
                   <span className="text">
                     We denounce indignatione dislike mende charms
@@ -131,55 +131,55 @@ const Index2OnePage = () => {
           </div>
           <div className="skills-wrap">
             <div className="skill-item">
-              <img src="assets/images/skills/skill1.png" alt="Skill Icon" />
+              <img src="/assets/images/skills/skill1.png" alt="Skill Icon" />
               <span className="text">Bootstrap</span>
             </div>
             <div className="skill-item">
-              <img src="assets/images/skills/skill2.png" alt="Skill Icon" />
+              <img src="/assets/images/skills/skill2.png" alt="Skill Icon" />
               <span className="text">HTML</span>
             </div>
             <div className="skill-item">
-              <img src="assets/images/skills/skill3.png" alt="Skill Icon" />
+              <img src="/assets/images/skills/skill3.png" alt="Skill Icon" />
               <span className="text">CSS</span>
             </div>
             <div className="skill-item">
-              <img src="assets/images/skills/skill4.png" alt="Skill Icon" />
+              <img src="/assets/images/skills/skill4.png" alt="Skill Icon" />
               <span className="text">javascript</span>
             </div>
             <div className="skill-item">
-              <img src="assets/images/skills/skill5.png" alt="Skill Icon" />
+              <img src="/assets/images/skills/skill5.png" alt="Skill Icon" />
               <span className="text">React</span>
             </div>
             <div className="skill-item">
-              <img src="assets/images/skills/skill6.png" alt="Skill Icon" />
+              <img src="/assets/images/skills/skill6.png" alt="Skill Icon" />
               <span className="text">WordPress</span>
             </div>
             <div className="skill-item">
-              <img src="assets/images/skills/skill7.png" alt="Skill Icon" />
+              <img src="/assets/images/skills/skill7.png" alt="Skill Icon" />
               <span className="text">php</span>
             </div>
             <div className="skill-item">
-              <img src="assets/images/skills/skill8.png" alt="Skill Icon" />
+              <img src="/assets/images/skills/skill8.png" alt="Skill Icon" />
               <span className="text">node.js</span>
             </div>
             <div className="skill-item">
-              <img src="assets/images/skills/skill9.png" alt="Skill Icon" />
+              <img src="/assets/images/skills/skill9.png" alt="Skill Icon" />
               <span className="text">Sass</span>
             </div>
             <div className="skill-item">
-              <img src="assets/images/skills/skill10.png" alt="Skill Icon" />
+              <img src="/assets/images/skills/skill10.png" alt="Skill Icon" />
               <span className="text">Angular</span>
             </div>
             <div className="skill-item">
-              <img src="assets/images/skills/skill11.png" alt="Skill Icon" />
+              <img src="/assets/images/skills/skill11.png" alt="Skill Icon" />
               <span className="text">Shopify</span>
             </div>
             <div className="skill-item">
-              <img src="assets/images/skills/skill12.png" alt="Skill Icon" />
+              <img src="/assets/images/skills/skill12.png" alt="Skill Icon" />
               <span className="text">Elementor</span>
             </div>
             <div className="skill-item">
-              <img src="assets/images/skills/skill13.png" alt="Skill Icon" />
+              <img src="/assets/images/skills/skill13.png" alt="Skill Icon" />
               <span className="text">Vue.js</span>
             </div>
           </div>
@@ -233,7 +233,7 @@ const Index2OnePage = () => {
             <div className="col-lg-5">
               <div className="image-border-shape wow fadeInRight delay-0-2s">
                 <img
-                  src="assets/images/about/about-image-shape.png"
+                  src="/assets/images/about/about-image-shape.png"
                   alt="About Image Shape"
                 />
                 <div className="bottom-border" />
@@ -247,7 +247,7 @@ const Index2OnePage = () => {
       <section
         id="services"
         className="service-area-four pt-110 rpt-85 pb-100 rpb-70"
-        style={{ backgroundImage: "url(assets/images/hero/hero-two-bg.png)" }}
+        style={{ backgroundImage: "url(/assets/images/hero/hero-two-bg.png)" }}
       >
         <div className="container">
           <div className="row justify-content-center">
@@ -278,7 +278,7 @@ const Index2OnePage = () => {
                 </div>
                 <div className="image">
                   <img
-                    src="assets/images/services/service1.jpg"
+                    src="/assets/images/services/service1.jpg"
                     alt="Service"
                   />
                 </div>
@@ -303,7 +303,7 @@ const Index2OnePage = () => {
                 </div>
                 <div className="image">
                   <img
-                    src="assets/images/services/service2.jpg"
+                    src="/assets/images/services/service2.jpg"
                     alt="Service"
                   />
                 </div>
@@ -328,7 +328,7 @@ const Index2OnePage = () => {
                 </div>
                 <div className="image">
                   <img
-                    src="assets/images/services/service3.jpg"
+                    src="/assets/images/services/service3.jpg"
                     alt="Service"
                   />
                 </div>
@@ -353,7 +353,7 @@ const Index2OnePage = () => {
                 </div>
                 <div className="image">
                   <img
-                    src="assets/images/services/service4.jpg"
+                    src="/assets/images/services/service4.jpg"
                     alt="Service"
                   />
                 </div>
@@ -378,7 +378,7 @@ const Index2OnePage = () => {
                 </div>
                 <div className="image">
                   <img
-                    src="assets/images/services/service5.jpg"
+                    src="/assets/images/services/service5.jpg"
                     alt="Service"
                   />
                 </div>
@@ -403,7 +403,7 @@ const Index2OnePage = () => {
                 </div>
                 <div className="image">
                   <img
-                    src="assets/images/services/service6.jpg"
+                    src="/assets/images/services/service6.jpg"
                     alt="Service"
                   />
                 </div>
@@ -428,7 +428,7 @@ const Index2OnePage = () => {
                 </div>
                 <div className="image">
                   <img
-                    src="assets/images/services/service7.jpg"
+                    src="/assets/images/services/service7.jpg"
                     alt="Service"
                   />
                 </div>
@@ -453,7 +453,7 @@ const Index2OnePage = () => {
                 </div>
                 <div className="image">
                   <img
-                    src="assets/images/services/service8.jpg"
+                    src="/assets/images/services/service8.jpg"
                     alt="Service"
                   />
                 </div>
@@ -529,7 +529,7 @@ const Index2OnePage = () => {
                 </h4>
                 <div className="image">
                   <img
-                    src="assets/images/projects/project-timeline-two1.jpg"
+                    src="/assets/images/projects/project-timeline-two1.jpg"
                     alt="Project TimeLine Image"
                   />
                 </div>
@@ -550,7 +550,7 @@ const Index2OnePage = () => {
                 </h4>
                 <div className="image">
                   <img
-                    src="assets/images/projects/project-timeline-two1.jpg"
+                    src="/assets/images/projects/project-timeline-two1.jpg"
                     alt="Project TimeLine Image"
                   />
                 </div>
@@ -571,7 +571,7 @@ const Index2OnePage = () => {
                 </h4>
                 <div className="image">
                   <img
-                    src="assets/images/projects/project-timeline-two1.jpg"
+                    src="/assets/images/projects/project-timeline-two1.jpg"
                     alt="Project TimeLine Image"
                   />
                 </div>
@@ -592,7 +592,7 @@ const Index2OnePage = () => {
                 </h4>
                 <div className="image">
                   <img
-                    src="assets/images/projects/project-timeline-two1.jpg"
+                    src="/assets/images/projects/project-timeline-two1.jpg"
                     alt="Project TimeLine Image"
                   />
                 </div>
@@ -613,7 +613,7 @@ const Index2OnePage = () => {
                 </h4>
                 <div className="image">
                   <img
-                    src="assets/images/projects/project-timeline-two1.jpg"
+                    src="/assets/images/projects/project-timeline-two1.jpg"
                     alt="Project TimeLine Image"
                   />
                 </div>
@@ -634,7 +634,7 @@ const Index2OnePage = () => {
                 </h4>
                 <div className="image">
                   <img
-                    src="assets/images/projects/project-timeline-two1.jpg"
+                    src="/assets/images/projects/project-timeline-two1.jpg"
                     alt="Project TimeLine Image"
                   />
                 </div>
@@ -666,7 +666,7 @@ const Index2OnePage = () => {
             <div className="col">
               <div className="team-member wow fadeInUp delay-0-2s">
                 <div className="image">
-                  <img src="assets/images/team/member6.jpg" alt="Team Member" />
+                  <img src="/assets/images/team/member6.jpg" alt="Team Member" />
                 </div>
                 <div className="content">
                   <h4>Patrick V. Schroeder</h4>
@@ -704,7 +704,7 @@ const Index2OnePage = () => {
             <div className="col">
               <div className="team-member wow fadeInUp delay-0-3s">
                 <div className="image">
-                  <img src="assets/images/team/member7.jpg" alt="Team Member" />
+                  <img src="/assets/images/team/member7.jpg" alt="Team Member" />
                 </div>
                 <div className="content">
                   <h4>Michael A. Braun</h4>
@@ -742,7 +742,7 @@ const Index2OnePage = () => {
             <div className="col">
               <div className="team-member wow fadeInUp delay-0-4s">
                 <div className="image">
-                  <img src="assets/images/team/member8.jpg" alt="Team Member" />
+                  <img src="/assets/images/team/member8.jpg" alt="Team Member" />
                 </div>
                 <div className="content">
                   <h4>James V. Decastro</h4>
@@ -780,7 +780,7 @@ const Index2OnePage = () => {
             <div className="col">
               <div className="team-member wow fadeInUp delay-0-5s">
                 <div className="image">
-                  <img src="assets/images/team/member9.jpg" alt="Team Member" />
+                  <img src="/assets/images/team/member9.jpg" alt="Team Member" />
                 </div>
                 <div className="content">
                   <h4>Troy V. Richardson</h4>
@@ -819,7 +819,7 @@ const Index2OnePage = () => {
               <div className="team-member wow fadeInUp delay-0-6s">
                 <div className="image">
                   <img
-                    src="assets/images/team/member10.jpg"
+                    src="/assets/images/team/member10.jpg"
                     alt="Team Member"
                   />
                 </div>
@@ -925,14 +925,14 @@ const Index2OnePage = () => {
             <div className="col-xl-6">
               <div className="why-choose-right wow fadeInLeft delay-0-2s">
                 <img
-                  src="assets/images/services/why-choose-right.png"
+                  src="/assets/images/services/why-choose-right.png"
                   alt="Why Choose Right"
                 />
                 <div className="why-choose-border-shape" />
                 <div className="text-shape">
                   <img
                     className="text"
-                    src="assets/images/services/web-design-text.svg"
+                    src="/assets/images/services/web-design-text.svg"
                     alt="Web Design Text"
                   />
                 </div>
@@ -948,7 +948,7 @@ const Index2OnePage = () => {
         className="pricing-area-three pt-75 rpt-100 pb-85 rpb-55"
         style={{
           backgroundImage:
-            "url(assets/images/background/pricing-bg-dot-shape.png)",
+            "url(/assets/images/background/pricing-bg-dot-shape.png)",
         }}
       >
         <div className="container container-1290">
@@ -1091,7 +1091,7 @@ const Index2OnePage = () => {
             <div className="col-lg-6">
               <div className="image-border-shape rmb-20 wow fadeInRight delay-0-2s">
                 <img
-                  src="assets/images/testimonials/testimonials-four.jpg"
+                  src="/assets/images/testimonials/testimonials-four.jpg"
                   alt="Testimonial Left Image"
                 />
                 <div className="bottom-border" />
@@ -1119,7 +1119,7 @@ const Index2OnePage = () => {
                       <div className="testimonial-author">
                         <div className="author-image">
                           <img
-                            src="assets/images/testimonials/author1.png"
+                            src="/assets/images/testimonials/author1.png"
                             alt="Author Image"
                           />
                         </div>
@@ -1153,7 +1153,7 @@ const Index2OnePage = () => {
                       <div className="testimonial-author">
                         <div className="author-image">
                           <img
-                            src="assets/images/testimonials/author1.png"
+                            src="/assets/images/testimonials/author1.png"
                             alt="Author Image"
                           />
                         </div>
@@ -1187,7 +1187,7 @@ const Index2OnePage = () => {
                       <div className="testimonial-author">
                         <div className="author-image">
                           <img
-                            src="assets/images/testimonials/author1.png"
+                            src="/assets/images/testimonials/author1.png"
                             alt="Author Image"
                           />
                         </div>
@@ -1221,7 +1221,7 @@ const Index2OnePage = () => {
                       <div className="testimonial-author">
                         <div className="author-image">
                           <img
-                            src="assets/images/testimonials/author1.png"
+                            src="/assets/images/testimonials/author1.png"
                             alt="Author Image"
                           />
                         </div>
@@ -1272,7 +1272,7 @@ const Index2OnePage = () => {
             <div className="col-xl-4 col-md-6">
               <div className="blog-item style-two wow fadeInUp delay-0-2s">
                 <div className="image">
-                  <img src="assets/images/blog/blog1.jpg" alt="Blog" />
+                  <img src="/assets/images/blog/blog1.jpg" alt="Blog" />
                 </div>
                 <h4>
                   <Link legacyBehavior href="/blog-details">
@@ -1295,7 +1295,7 @@ const Index2OnePage = () => {
             <div className="col-xl-4 col-md-6">
               <div className="blog-item style-two wow fadeInUp delay-0-4s">
                 <div className="image">
-                  <img src="assets/images/blog/blog2.jpg" alt="Blog" />
+                  <img src="/assets/images/blog/blog2.jpg" alt="Blog" />
                 </div>
                 <h4>
                   <Link legacyBehavior href="/blog-details">
@@ -1320,7 +1320,7 @@ const Index2OnePage = () => {
             <div className="col-xl-4 col-md-6">
               <div className="blog-item style-two wow fadeInUp delay-0-6s">
                 <div className="image">
-                  <img src="assets/images/blog/blog3.jpg" alt="Blog" />
+                  <img src="/assets/images/blog/blog3.jpg" alt="Blog" />
                 </div>
                 <h4>
                   <Link legacyBehavior href="/blog-details">

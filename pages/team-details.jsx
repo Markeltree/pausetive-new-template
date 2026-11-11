@@ -6,13 +6,13 @@ const TeamDetails = () => {
       {/* Team Profile Area start */}
       <section
         className="team-profile-area pt-220 rpt-150 pb-130 rpb-100 rel"
-        style={{ backgroundImage: "url(assets/images/hero/hero-two-bg.png)" }}
+        style={{ backgroundImage: "url(/assets/images/hero/hero-two-bg.png)" }}
       >
         <div className="container container-1290">
           <div className="row gap-100 align-items-center">
             <div className="col-lg-6">
               <div className="team-profile-image rmb-55 wow fadeInLeft delay-0-2s">
-                <img src="assets/images/team/team-profile.jpg" alt="Team" />
+                <img src="/assets/images/team/team-profile.jpg" alt="Team" />
               </div>
             </div>
             <div className="col-lg-6">

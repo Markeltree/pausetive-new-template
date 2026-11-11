@@ -27,7 +27,7 @@ const ServiceDetails = () => {
       {/* Page Banner Section Start */}
       <section
         className="page-banner pt-210 rpt-150 pb-25 rel z-1"
-        style={{ backgroundImage: "url(assets/images/hero/hero-two-bg.png)" }}
+        style={{ backgroundImage: "url(/assets/images/hero/hero-two-bg.png)" }}
       >
         <div className="container">
           <div className="row">
@@ -36,7 +36,7 @@ const ServiceDetails = () => {
                 {service.title}
                 <img
                   className="mxw-10 leaf"
-                  src="assets/images/banner/leaf.png"
+                  src="/assets/images/banner/leaf.png"
                   alt="Leaf"
                 />
               </h1>
@@ -61,7 +61,7 @@ const ServiceDetails = () => {
                   className="service-about-box bgc-primary"
                   style={{
                     backgroundImage:
-                      "url(assets/images/shapes/work-step-bg.png)",
+                      "url(/assets/images/shapes/work-step-bg.png)",
                   }}
                 >
                   <Link legacyBehavior href="/contact">
@@ -178,7 +178,7 @@ const ServiceDetails = () => {
         className="pricing-area-three pt-130 rpt-100 pb-85 rpb-55"
         style={{
           backgroundImage:
-            "url(assets/images/background/pricing-bg-dot-shape.png)",
+            "url(/assets/images/background/pricing-bg-dot-shape.png)",
         }}
       >
         <div className="container container-1290">
@@ -245,7 +245,7 @@ const ServiceDetails = () => {
           <div className="row align-items-center">
             <div className="col-lg-4">
               <div className="faq-iamge-part rmb-55 wow fadeInLeft delay-0-2s">
-                <img src="assets/images/faqs/faq.png" alt="FAQs" />
+                <img src="/assets/images/faqs/faq.png" alt="FAQs" />
               </div>
             </div>
             <div className="col-lg-8">

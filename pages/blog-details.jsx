@@ -12,7 +12,7 @@ const BlogDetails = () => {
       <section
         className="page-banner-area overlay pt-250 pb-50 rel z-1 bgs-cover"
         style={{
-          backgroundImage: "url(assets/images/banner/banner-bg-two.jpg)",
+          backgroundImage: "url(/assets/images/banner/banner-bg-two.jpg)",
         }}
       >
         <div className="container">

@@ -62,7 +62,7 @@ const Index4 = () => {
             </h1>
             <div className="rotated-man-wrap">
               <div className="rotated-man">
-                <img src="assets/images/hero/hero-man.png" alt="Man" />
+                <img src="/assets/images/hero/hero-man.png" alt="Man" />
               </div>
             </div>
           </div>
@@ -70,12 +70,12 @@ const Index4 = () => {
         <div className="hero-shapes">
           <img
             className="shape one"
-            src="assets/images/hero/hero-shape1.png"
+            src="/assets/images/hero/hero-shape1.png"
             alt="Shape"
           />
           <img
             className="shape two"
-            src="assets/images/hero/hero-shape2.png"
+            src="/assets/images/hero/hero-shape2.png"
             alt="Shape"
           />
         </div>
@@ -121,7 +121,7 @@ const Index4 = () => {
                 </div>
                 <div className="col-lg-6">
                   <div className="about-four-image wow fadeInUp delay-0-4s">
-                    <img src="assets/images/about/about-four.jpg" alt="About" />
+                    <img src="/assets/images/about/about-four.jpg" alt="About" />
                   </div>
                 </div>
               </div>
@@ -213,61 +213,61 @@ const Index4 = () => {
             <div className="col-lg-7">
               <div className="my-skill-images wow fadeInRight delay-0-2s">
                 <div className="skill-item">
-                  <img src="assets/images/skills/skill9.png" alt="Skill Icon" />
+                  <img src="/assets/images/skills/skill9.png" alt="Skill Icon" />
                   <span className="text">Sass</span>
                 </div>
                 <div className="skill-item">
-                  <img src="assets/images/skills/skill2.png" alt="Skill Icon" />
+                  <img src="/assets/images/skills/skill2.png" alt="Skill Icon" />
                   <span className="text">HTML</span>
                 </div>
                 <div className="skill-item">
-                  <img src="assets/images/skills/skill4.png" alt="Skill Icon" />
+                  <img src="/assets/images/skills/skill4.png" alt="Skill Icon" />
                   <span className="text">javascript</span>
                 </div>
                 <div className="skill-item">
                   <img
-                    src="assets/images/skills/skill11.png"
+                    src="/assets/images/skills/skill11.png"
                     alt="Skill Icon"
                   />
                   <span className="text">Shopify</span>
                 </div>
                 <div className="skill-item">
                   <img
-                    src="assets/images/skills/skill10.png"
+                    src="/assets/images/skills/skill10.png"
                     alt="Skill Icon"
                   />
                   <span className="text">Angular</span>
                 </div>
                 <div className="skill-item">
-                  <img src="assets/images/skills/skill8.png" alt="Skill Icon" />
+                  <img src="/assets/images/skills/skill8.png" alt="Skill Icon" />
                   <span className="text">node.js</span>
                 </div>
                 <div className="skill-item">
-                  <img src="assets/images/skills/skill3.png" alt="Skill Icon" />
+                  <img src="/assets/images/skills/skill3.png" alt="Skill Icon" />
                   <span className="text">CSS</span>
                 </div>
                 <div className="skill-item">
-                  <img src="assets/images/skills/skill7.png" alt="Skill Icon" />
+                  <img src="/assets/images/skills/skill7.png" alt="Skill Icon" />
                   <span className="text">php</span>
                 </div>
                 <div className="skill-item">
-                  <img src="assets/images/skills/skill1.png" alt="Skill Icon" />
+                  <img src="/assets/images/skills/skill1.png" alt="Skill Icon" />
                   <span className="text">Bootstrap</span>
                 </div>
                 <div className="skill-item">
-                  <img src="assets/images/skills/skill6.png" alt="Skill Icon" />
+                  <img src="/assets/images/skills/skill6.png" alt="Skill Icon" />
                   <span className="text">WordPress</span>
                 </div>
                 <div className="skill-item">
                   <img
-                    src="assets/images/skills/skill12.png"
+                    src="/assets/images/skills/skill12.png"
                     alt="Skill Icon"
                   />
                   <span className="text">Elementor</span>
                 </div>
                 <div className="skill-item">
                   <img
-                    src="assets/images/skills/skill13.png"
+                    src="/assets/images/skills/skill13.png"
                     alt="Skill Icon"
                   />
                 </div>
@@ -326,7 +326,7 @@ const Index4 = () => {
             <SwiperSlide className="project-item style-four wow fadeInUp delay-0-2s">
               <div className="image">
                 <img
-                  src="assets/images/projects/work-gallery1.jpg"
+                  src="/assets/images/projects/work-gallery1.jpg"
                   alt="Work Gallery"
                 />
                 <Link legacyBehavior href="/project-details">
@@ -349,7 +349,7 @@ const Index4 = () => {
             <SwiperSlide className="project-item style-four wow fadeInUp delay-0-4s">
               <div className="image">
                 <img
-                  src="assets/images/projects/work-gallery2.jpg"
+                  src="/assets/images/projects/work-gallery2.jpg"
                   alt="Work Gallery"
                 />
                 <Link legacyBehavior href="/project-details">
@@ -372,7 +372,7 @@ const Index4 = () => {
             <SwiperSlide className="project-item style-four wow fadeInUp delay-0-6s">
               <div className="image">
                 <img
-                  src="assets/images/projects/work-gallery3.jpg"
+                  src="/assets/images/projects/work-gallery3.jpg"
                   alt="Work Gallery"
                 />
                 <Link legacyBehavior href="/project-details">
@@ -395,7 +395,7 @@ const Index4 = () => {
             <SwiperSlide className="project-item style-four wow fadeInUp delay-0-2s">
               <div className="image">
                 <img
-                  src="assets/images/projects/work-gallery1.jpg"
+                  src="/assets/images/projects/work-gallery1.jpg"
                   alt="Work Gallery"
                 />
                 <Link legacyBehavior href="/project-details">
@@ -418,7 +418,7 @@ const Index4 = () => {
             <SwiperSlide className="project-item style-four wow fadeInUp delay-0-2s">
               <div className="image">
                 <img
-                  src="assets/images/projects/work-gallery2.jpg"
+                  src="/assets/images/projects/work-gallery2.jpg"
                   alt="Work Gallery"
                 />
                 <Link legacyBehavior href="/project-details">
@@ -441,7 +441,7 @@ const Index4 = () => {
             <SwiperSlide className="project-item style-four wow fadeInUp delay-0-2s">
               <div className="image">
                 <img
-                  src="assets/images/projects/work-gallery3.jpg"
+                  src="/assets/images/projects/work-gallery3.jpg"
                   alt="Work Gallery"
                 />
                 <Link legacyBehavior href="/project-details">
@@ -628,7 +628,7 @@ const Index4 = () => {
                       eventKey="awards-tab-one"
                     >
                       <div className="award-image">
-                        <img src="assets/images/about/award.png" alt="Awards" />
+                        <img src="/assets/images/about/award.png" alt="Awards" />
                       </div>
                     </Tab.Pane>
                     <Tab.Pane
@@ -636,7 +636,7 @@ const Index4 = () => {
                       eventKey="awards-tab-two"
                     >
                       <div className="award-image">
-                        <img src="assets/images/about/award.png" alt="Awards" />
+                        <img src="/assets/images/about/award.png" alt="Awards" />
                       </div>
                     </Tab.Pane>
                     <Tab.Pane
@@ -644,7 +644,7 @@ const Index4 = () => {
                       eventKey="awards-tab-three"
                     >
                       <div className="award-image">
-                        <img src="assets/images/about/award.png" alt="Awards" />
+                        <img src="/assets/images/about/award.png" alt="Awards" />
                       </div>
                     </Tab.Pane>
                     <Tab.Pane
@@ -652,7 +652,7 @@ const Index4 = () => {
                       eventKey="awards-tab-four"
                     >
                       <div className="award-image">
-                        <img src="assets/images/about/award.png" alt="Awards" />
+                        <img src="/assets/images/about/award.png" alt="Awards" />
                       </div>
                     </Tab.Pane>
                   </Tab.Content>
@@ -752,7 +752,7 @@ const Index4 = () => {
             </div>
             <div className="col-lg-5">
               <div className="faq-four-iamge wow fadeInLeft delay-0-2s">
-                <img src="assets/images/faqs/faq-four.jpg" alt="FAQs" />
+                <img src="/assets/images/faqs/faq-four.jpg" alt="FAQs" />
               </div>
             </div>
           </div>
@@ -768,7 +768,7 @@ const Index4 = () => {
                 className="testimonial-five-image"
                 style={{
                   backgroundImage:
-                    "url(assets/images/testimonials/testimonials-five.jpg)",
+                    "url(/assets/images/testimonials/testimonials-five.jpg)",
                 }}
               />
             </div>
@@ -776,7 +776,7 @@ const Index4 = () => {
               <div className="testimonial-five-right p-100 py-130 rpy-100 wow fadeInLeft delay-0-2s">
                 <div className="circle-logo-text w-50 mb-65 rmb-35">
                   <img
-                    src="assets/images/about/circle-text.svg"
+                    src="/assets/images/about/circle-text.svg"
                     alt="Circle Text"
                   />
                 </div>
@@ -799,7 +799,7 @@ const Index4 = () => {
                       <div className="testimonial-author">
                         <div className="author-image">
                           <img
-                            src="assets/images/testimonials/author1.png"
+                            src="/assets/images/testimonials/author1.png"
                             alt="Author Image"
                           />
                         </div>
@@ -831,7 +831,7 @@ const Index4 = () => {
                       <div className="testimonial-author">
                         <div className="author-image">
                           <img
-                            src="assets/images/testimonials/author1.png"
+                            src="/assets/images/testimonials/author1.png"
                             alt="Author Image"
                           />
                         </div>
@@ -863,7 +863,7 @@ const Index4 = () => {
                       <div className="testimonial-author">
                         <div className="author-image">
                           <img
-                            src="assets/images/testimonials/author1.png"
+                            src="/assets/images/testimonials/author1.png"
                             alt="Author Image"
                           />
                         </div>
@@ -895,7 +895,7 @@ const Index4 = () => {
                       <div className="testimonial-author">
                         <div className="author-image">
                           <img
-                            src="assets/images/testimonials/author1.png"
+                            src="/assets/images/testimonials/author1.png"
                             alt="Author Image"
                           />
                         </div>
@@ -940,32 +940,32 @@ const Index4 = () => {
         <div className="cta-shapes">
           <img
             className="shape one"
-            src="assets/images/shapes/circle.png"
+            src="/assets/images/shapes/circle.png"
             alt="Circle"
           />
           <img
             className="shape two"
-            src="assets/images/shapes/close.png"
+            src="/assets/images/shapes/close.png"
             alt="Close"
           />
           <img
             className="shape three"
-            src="assets/images/shapes/weve-lines.png"
+            src="/assets/images/shapes/weve-lines.png"
             alt="Weve Line"
           />
           <img
             className="shape four"
-            src="assets/images/shapes/circle.png"
+            src="/assets/images/shapes/circle.png"
             alt="Circle"
           />
           <img
             className="shape five"
-            src="assets/images/shapes/close.png"
+            src="/assets/images/shapes/close.png"
             alt="Close"
           />
           <img
             className="shape six"
-            src="assets/images/shapes/weve-lines.png"
+            src="/assets/images/shapes/weve-lines.png"
             alt="Weve Line"
           />
         </div>
@@ -986,7 +986,7 @@ const Index4 = () => {
             <div className="col-xl-4 col-md-6">
               <div className="blog-item style-three wow fadeInUp delay-0-2s">
                 <div className="image">
-                  <img src="assets/images/blog/blog-four1.jpg" alt="Blog" />
+                  <img src="/assets/images/blog/blog-four1.jpg" alt="Blog" />
                   <Link legacyBehavior href="/blog">
                     <a className="category">Design</a>
                   </Link>
@@ -1005,7 +1005,7 @@ const Index4 = () => {
                   </h5>
                   <div className="author">
                     <img
-                      src="assets/images/blog/blog-author1.jpg"
+                      src="/assets/images/blog/blog-author1.jpg"
                       alt="Author"
                     />
                     <span className="name">Bernard R. Kay</span>
@@ -1016,7 +1016,7 @@ const Index4 = () => {
             <div className="col-xl-4 col-md-6">
               <div className="blog-item style-three wow fadeInUp delay-0-4s">
                 <div className="image">
-                  <img src="assets/images/blog/blog-four2.jpg" alt="Blog" />
+                  <img src="/assets/images/blog/blog-four2.jpg" alt="Blog" />
                   <Link legacyBehavior href="/blog">
                     <a className="category">Software</a>
                   </Link>
@@ -1035,7 +1035,7 @@ const Index4 = () => {
                   </h5>
                   <div className="author">
                     <img
-                      src="assets/images/blog/blog-author2.jpg"
+                      src="/assets/images/blog/blog-author2.jpg"
                       alt="Author"
                     />
                     <span className="name">Bernard R. Kay</span>
@@ -1046,7 +1046,7 @@ const Index4 = () => {
             <div className="col-xl-4 col-md-6">
               <div className="blog-item style-three wow fadeInUp delay-0-6s">
                 <div className="image">
-                  <img src="assets/images/blog/blog-four3.jpg" alt="Blog" />
+                  <img src="/assets/images/blog/blog-four3.jpg" alt="Blog" />
                   <Link legacyBehavior href="/blog">
                     <a className="category">Product</a>
                   </Link>
@@ -1065,7 +1065,7 @@ const Index4 = () => {
                   </h5>
                   <div className="author">
                     <img
-                      src="assets/images/blog/blog-author3.jpg"
+                      src="/assets/images/blog/blog-author3.jpg"
                       alt="Author"
                     />
                     <span className="name">Bernard R. Kay</span>
@@ -1093,7 +1093,7 @@ const Index4 = () => {
             <div className="col-xl-5 col-lg-6 col-md-8 col-sm-10">
               <div className="drop-me-image-part wow fadeInRight delay-0-2s position-relative">
                 <div className="rotated-man text-center">
-                  <img src="assets/images/hero/drop-me.png" alt="Man" />
+                  <img src="/assets/images/hero/drop-me.png" alt="Man" />
                 </div>
               </div>
             </div>
@@ -1119,7 +1119,7 @@ const Index4 = () => {
             <Link legacyBehavior href="/contact">
               <a className="client-logo-item wow fadeInUp delay-0-2s">
                 <img
-                  src="assets/images/client-logos/client-logo1.png"
+                  src="/assets/images/client-logos/client-logo1.png"
                   alt="Client Logo"
                 />
               </a>
@@ -1127,7 +1127,7 @@ const Index4 = () => {
             <Link legacyBehavior href="/contact">
               <a className="client-logo-item wow fadeInUp delay-0-3s">
                 <img
-                  src="assets/images/client-logos/client-logo2.png"
+                  src="/assets/images/client-logos/client-logo2.png"
                   alt="Client Logo"
                 />
               </a>
@@ -1135,7 +1135,7 @@ const Index4 = () => {
             <Link legacyBehavior href="/contact">
               <a className="client-logo-item wow fadeInUp delay-0-4s">
                 <img
-                  src="assets/images/client-logos/client-logo3.png"
+                  src="/assets/images/client-logos/client-logo3.png"
                   alt="Client Logo"
                 />
               </a>
@@ -1143,7 +1143,7 @@ const Index4 = () => {
             <Link legacyBehavior href="/contact">
               <a className="client-logo-item wow fadeInUp delay-0-5s">
                 <img
-                  src="assets/images/client-logos/client-logo4.png"
+                  src="/assets/images/client-logos/client-logo4.png"
                   alt="Client Logo"
                 />
               </a>
@@ -1151,7 +1151,7 @@ const Index4 = () => {
             <Link legacyBehavior href="/contact">
               <a className="client-logo-item wow fadeInUp delay-0-6s">
                 <img
-                  src="assets/images/client-logos/client-logo5.png"
+                  src="/assets/images/client-logos/client-logo5.png"
                   alt="Client Logo"
                 />
               </a>
@@ -1159,7 +1159,7 @@ const Index4 = () => {
             <Link legacyBehavior href="/contact">
               <a className="client-logo-item wow fadeInUp delay-0-7s">
                 <img
-                  src="assets/images/client-logos/client-logo6.png"
+                  src="/assets/images/client-logos/client-logo6.png"
                   alt="Client Logo"
                 />
               </a>

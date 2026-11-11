@@ -22,7 +22,7 @@ const index5 = () => {
               href="contact"
             >
               <img
-                src="assets/images/client-logos/client-logo1.png"
+                src="/assets/images/client-logos/client-logo1.png"
                 alt="Client Logo"
               />
             </Link>
@@ -31,7 +31,7 @@ const index5 = () => {
               href="contact"
             >
               <img
-                src="assets/images/client-logos/client-logo2.png"
+                src="/assets/images/client-logos/client-logo2.png"
                 alt="Client Logo"
               />
             </Link>
@@ -40,7 +40,7 @@ const index5 = () => {
               href="contact"
             >
               <img
-                src="assets/images/client-logos/client-logo3.png"
+                src="/assets/images/client-logos/client-logo3.png"
                 alt="Client Logo"
               />
             </Link>
@@ -49,7 +49,7 @@ const index5 = () => {
               href="contact"
             >
               <img
-                src="assets/images/client-logos/client-logo4.png"
+                src="/assets/images/client-logos/client-logo4.png"
                 alt="Client Logo"
               />
             </Link>
@@ -58,7 +58,7 @@ const index5 = () => {
               href="contact"
             >
               <img
-                src="assets/images/client-logos/client-logo5.png"
+                src="/assets/images/client-logos/client-logo5.png"
                 alt="Client Logo"
               />
             </Link>
@@ -67,7 +67,7 @@ const index5 = () => {
               href="contact"
             >
               <img
-                src="assets/images/client-logos/client-logo6.png"
+                src="/assets/images/client-logos/client-logo6.png"
                 alt="Client Logo"
               />
             </Link>
@@ -162,11 +162,11 @@ const index5 = () => {
                   dicta sunt explicabo.
                 </p>
                 <div className="authors-text mt-45 pt-50">
-                  <img src="assets/images/about/author1.jpg" alt="Author" />
-                  <img src="assets/images/about/author2.jpg" alt="Author" />
-                  <img src="assets/images/about/author3.jpg" alt="Author" />
-                  <img src="assets/images/about/author4.jpg" alt="Author" />
-                  <img src="assets/images/about/author5.jpg" alt="Author" />
+                  <img src="/assets/images/about/author1.jpg" alt="Author" />
+                  <img src="/assets/images/about/author2.jpg" alt="Author" />
+                  <img src="/assets/images/about/author3.jpg" alt="Author" />
+                  <img src="/assets/images/about/author4.jpg" alt="Author" />
+                  <img src="/assets/images/about/author5.jpg" alt="Author" />
                   <span className="text">
                     We Have <span>5k+ Global</span> Clients Around the World
                   </span>
@@ -177,19 +177,19 @@ const index5 = () => {
               <div className="about-five-images rmt-50 wow fadeInRight delay-0-2s">
                 <div className="image-one">
                   <img
-                    src="assets/images/about/about-five1.jpg"
+                    src="/assets/images/about/about-five1.jpg"
                     alt="About Image"
                   />
                 </div>
                 <div className="about-five-shape">
                   <img
-                    src="assets/images/about/about-five-bg.png"
+                    src="/assets/images/about/about-five-bg.png"
                     alt="About Five Shape"
                   />
                 </div>
                 <div className="image-two mt-30">
                   <img
-                    src="assets/images/about/about-five2.jpg"
+                    src="/assets/images/about/about-five2.jpg"
                     alt="About Image"
                   />
                 </div>
@@ -220,7 +220,7 @@ const index5 = () => {
               <div className="project-item style-five wow fadeInUp delay-0-2s">
                 <div className="image">
                   <img
-                    src="assets/images/projects/project-five1.jpg"
+                    src="/assets/images/projects/project-five1.jpg"
                     alt="Work Gallery"
                   />
                   <Link href="project-details" className="project-btn">
@@ -241,7 +241,7 @@ const index5 = () => {
               <div className="project-item style-five wow fadeInUp delay-0-4s">
                 <div className="image">
                   <img
-                    src="assets/images/projects/project-five2.jpg"
+                    src="/assets/images/projects/project-five2.jpg"
                     alt="Work Gallery"
                   />
                   <Link href="project-details" className="project-btn">
@@ -262,7 +262,7 @@ const index5 = () => {
               <div className="project-item style-five wow fadeInUp delay-0-6s">
                 <div className="image">
                   <img
-                    src="assets/images/projects/project-five3.jpg"
+                    src="/assets/images/projects/project-five3.jpg"
                     alt="Work Gallery"
                   />
                   <Link href="project-details" className="project-btn">
@@ -283,7 +283,7 @@ const index5 = () => {
               <div className="project-item style-five wow fadeInUp delay-0-8s">
                 <div className="image">
                   <img
-                    src="assets/images/projects/project-five4.jpg"
+                    src="/assets/images/projects/project-five4.jpg"
                     alt="Work Gallery"
                   />
                   <Link href="project-details" className="project-btn">
@@ -304,7 +304,7 @@ const index5 = () => {
               <div className="project-item style-five wow fadeInUp delay-0-2s">
                 <div className="image">
                   <img
-                    src="assets/images/projects/project-five1.jpg"
+                    src="/assets/images/projects/project-five1.jpg"
                     alt="Work Gallery"
                   />
                   <Link href="project-details" className="project-btn">
@@ -325,7 +325,7 @@ const index5 = () => {
               <div className="project-item style-five wow fadeInUp delay-0-2s">
                 <div className="image">
                   <img
-                    src="assets/images/projects/project-five2.jpg"
+                    src="/assets/images/projects/project-five2.jpg"
                     alt="Work Gallery"
                   />
                   <Link href="project-details" className="project-btn">
@@ -346,7 +346,7 @@ const index5 = () => {
               <div className="project-item style-five wow fadeInUp delay-0-2s">
                 <div className="image">
                   <img
-                    src="assets/images/projects/project-five3.jpg"
+                    src="/assets/images/projects/project-five3.jpg"
                     alt="Work Gallery"
                   />
                   <Link href="project-details" className="project-btn">
@@ -367,7 +367,7 @@ const index5 = () => {
               <div className="project-item style-five wow fadeInUp delay-0-2s">
                 <div className="image">
                   <img
-                    src="assets/images/projects/project-five4.jpg"
+                    src="/assets/images/projects/project-five4.jpg"
                     alt="Work Gallery"
                   />
                   <Link href="project-details" className="project-btn">
@@ -430,7 +430,7 @@ const index5 = () => {
       <div className="video-area-five rel z-1">
         <div className="container container-1290">
           <div className="video-part style-three wow fadeInUp delay-0-2s">
-            <img src="assets/images/video/video-five-bg.jpg" alt="Video" />
+            <img src="/assets/images/video/video-five-bg.jpg" alt="Video" />
             <a
               href="https://www.youtube.com/watch?v=9Y7ma241N8k"
               className="mfp-iframe video-play"
@@ -459,7 +459,7 @@ const index5 = () => {
               <div className="team-member style-three wow fadeInUp delay-0-2s">
                 <div className="image">
                   <img
-                    src="assets/images/team/member-three1.jpg"
+                    src="/assets/images/team/member-three1.jpg"
                     alt="Team Member"
                   />
                   <div className="social-style-two">
@@ -487,7 +487,7 @@ const index5 = () => {
               <div className="team-member style-three wow fadeInUp delay-0-4s">
                 <div className="image">
                   <img
-                    src="assets/images/team/member-three2.jpg"
+                    src="/assets/images/team/member-three2.jpg"
                     alt="Team Member"
                   />
                   <div className="social-style-two">
@@ -515,7 +515,7 @@ const index5 = () => {
               <div className="team-member style-three wow fadeInUp delay-0-6s">
                 <div className="image">
                   <img
-                    src="assets/images/team/member-three3.jpg"
+                    src="/assets/images/team/member-three3.jpg"
                     alt="Team Member"
                   />
                   <div className="social-style-two">
@@ -543,7 +543,7 @@ const index5 = () => {
               <div className="team-member style-three wow fadeInUp delay-0-8s">
                 <div className="image">
                   <img
-                    src="assets/images/team/member-three4.jpg"
+                    src="/assets/images/team/member-three4.jpg"
                     alt="Team Member"
                   />
                   <div className="social-style-two">
@@ -677,14 +677,14 @@ const index5 = () => {
                   </h5>
                   <div className="author">
                     <img
-                      src="assets/images/blog/blog-author1.jpg"
+                      src="/assets/images/blog/blog-author1.jpg"
                       alt="Author"
                     />
                     <span className="name">Bernard R. Kay</span>
                   </div>
                 </div>
                 <div className="image">
-                  <img src="assets/images/blog/blog-five1.jpg" alt="Blog" />
+                  <img src="/assets/images/blog/blog-five1.jpg" alt="Blog" />
                 </div>
               </div>
             </div>
@@ -704,14 +704,14 @@ const index5 = () => {
                   </h5>
                   <div className="author">
                     <img
-                      src="assets/images/blog/blog-author2.jpg"
+                      src="/assets/images/blog/blog-author2.jpg"
                       alt="Author"
                     />
                     <span className="name">Bernard R. Kay</span>
                   </div>
                 </div>
                 <div className="image">
-                  <img src="assets/images/blog/blog-five2.jpg" alt="Blog" />
+                  <img src="/assets/images/blog/blog-five2.jpg" alt="Blog" />
                 </div>
               </div>
             </div>
@@ -731,14 +731,14 @@ const index5 = () => {
                   </h5>
                   <div className="author">
                     <img
-                      src="assets/images/blog/blog-author3.jpg"
+                      src="/assets/images/blog/blog-author3.jpg"
                       alt="Author"
                     />
                     <span className="name">Bernard R. Kay</span>
                   </div>
                 </div>
                 <div className="image">
-                  <img src="assets/images/blog/blog-five3.jpg" alt="Blog" />
+                  <img src="/assets/images/blog/blog-five3.jpg" alt="Blog" />
                 </div>
               </div>
             </div>
@@ -758,14 +758,14 @@ const index5 = () => {
                   </h5>
                   <div className="author">
                     <img
-                      src="assets/images/blog/blog-author1.jpg"
+                      src="/assets/images/blog/blog-author1.jpg"
                       alt="Author"
                     />
                     <span className="name">Bernard R. Kay</span>
                   </div>
                 </div>
                 <div className="image">
-                  <img src="assets/images/blog/blog-five4.jpg" alt="Blog" />
+                  <img src="/assets/images/blog/blog-five4.jpg" alt="Blog" />
                 </div>
               </div>
             </div>
@@ -779,7 +779,7 @@ const index5 = () => {
           <div className="row no-gap">
             <div className="col-xl-5 align-self-center">
               <div className="work-with-image wow fadeInUp delay-0-2s">
-                <img src="assets/images/about/work-with-us.jpg" alt="About" />
+                <img src="/assets/images/about/work-with-us.jpg" alt="About" />
               </div>
             </div>
             <div className="col-xl-7 wow fadeInUp delay-0-4s">
@@ -787,7 +787,7 @@ const index5 = () => {
                 className="work-with-content"
                 style={{
                   backgroundImage:
-                    "url(assets/images/about/work-with-us-bg.jpg)",
+                    "url(/assets/images/about/work-with-us-bg.jpg)",
                 }}
               >
                 <div className="section-title mb-10">

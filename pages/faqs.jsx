@@ -22,7 +22,7 @@ const Faqs = () => {
           <div className="row align-items-center gap-100">
             <div className="col-lg-5">
               <div className="faq-iamge-part rmb-55 wow fadeInLeft delay-0-2s">
-                <img src="assets/images/faqs/faq-two.jpg" alt="FAQs" />
+                <img src="/assets/images/faqs/faq-two.jpg" alt="FAQs" />
               </div>
             </div>
             <div className="col-lg-7">
@@ -57,12 +57,12 @@ const Faqs = () => {
         <div className="faq-shapes">
           <img
             className="shape left"
-            src="assets/images/shapes/ellipse-left.png"
+            src="/assets/images/shapes/ellipse-left.png"
             alt="Shape"
           />
           <img
             className="shape right"
-            src="assets/images/shapes/ellipse-right.png"
+            src="/assets/images/shapes/ellipse-right.png"
             alt="Shape"
           />
         </div>
@@ -74,7 +74,7 @@ const Faqs = () => {
           <div className="row align-items-center">
             <div className="col-lg-5 order-lg-2">
               <div className="faq-iamge-part text-lg-end rmb-55 wow fadeInLeft delay-0-2s">
-                <img src="assets/images/faqs/faq-three.png" alt="FAQs" />
+                <img src="/assets/images/faqs/faq-three.png" alt="FAQs" />
               </div>
             </div>
             <div className="col-lg-7">

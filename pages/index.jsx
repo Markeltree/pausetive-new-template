@@ -35,7 +35,7 @@ const Index = () => {
             </div>
             <div className="col-lg-4">
               <div className="hero-right-image mt-20 wow fadeInUp delay-0-4s">
-                <img src="assets/images/hero/hero-right.png" alt="Hero" />
+                <img src="/assets/images/hero/hero-right.png" alt="Hero" />
               </div>
             </div>
           </div>
@@ -43,7 +43,7 @@ const Index = () => {
         <div className="container-fluid">
           <div className="hero-bottom-image">
             <img
-              src="assets/images/pauseitive/about-team.jpg"
+              src="/assets/images/pauseitive/about-team.jpg"
               alt="Pauseitive Tech team"
             />
             <div className="hero-social">
@@ -56,7 +56,7 @@ const Index = () => {
           </div>
         </div>
         <div className="hero-bg">
-          <img src="assets/images/hero/hero-bg.png" alt="lines" />
+          <img src="/assets/images/hero/hero-bg.png" alt="lines" />
         </div>
       </section>
       {/* Hero Section End */}
@@ -67,7 +67,7 @@ const Index = () => {
             <div className="col-xl-5 col-lg-3">
               <div className="about-image rmb-45 wow fadeInUp delay-0-2s">
                 <img
-                  src="assets/images/about/circle-text.svg"
+                  src="/assets/images/about/circle-text.svg"
                   alt="Circle Text"
                 />
               </div>
@@ -146,7 +146,7 @@ const Index = () => {
             <div className="col-xl-6">
               <div className="what-we-do-image mb-55 wow fadeInRight delay-0-2s">
                 <img
-                  src="assets/images/pauseitive/about-vr.jpg"
+                  src="/assets/images/pauseitive/about-vr.jpg"
                   alt="Unleashing possibilities in the digital world"
                 />
               </div>
@@ -300,7 +300,7 @@ const Index = () => {
             <div className="col-xl-7">
               <div className="why-choose-left-image mb-40 wow fadeInLeft delay-0-2s">
                 <img
-                  src="assets/images/pauseitive/kim-6.jpg"
+                  src="/assets/images/pauseitive/kim-6.jpg"
                   alt={leader.name}
                 />
               </div>
@@ -415,7 +415,7 @@ const Index = () => {
             <div className="col-lg-6">
               <div className="testimonials-three-image wow fadeInRight delay-0-2s">
                 <img
-                  src="assets/images/pauseitive/event1.jpg"
+                  src="/assets/images/pauseitive/event1.jpg"
                   alt="Testimonials"
                 />
               </div>

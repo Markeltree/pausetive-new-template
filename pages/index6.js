@@ -30,7 +30,7 @@ const Index = () => {
             <div className="row no-gap">
               <div className="col-xl-4">
                 <div className="left-image">
-                  <img src="assets/images/hero/hero-six1.png" alt="Hero" />
+                  <img src="/assets/images/hero/hero-six1.png" alt="Hero" />
                 </div>
               </div>
               <div className="col-xl-4">
@@ -47,7 +47,7 @@ const Index = () => {
               </div>
               <div className="col-xl-4 align-self-end">
                 <div className="right-image">
-                  <img src="assets/images/hero/hero-six2.png" alt="Hero" />
+                  <img src="/assets/images/hero/hero-six2.png" alt="Hero" />
                 </div>
               </div>
             </div>
@@ -75,7 +75,7 @@ const Index = () => {
               <i className="flaticon-star-symbol" />
               <div className="image">
                 <img
-                  src="assets/images/services/service-five.png"
+                  src="/assets/images/services/service-five.png"
                   alt="Service"
                 />
               </div>
@@ -85,7 +85,7 @@ const Index = () => {
               <i className="flaticon-star-symbol" />
               <div className="image">
                 <img
-                  src="assets/images/services/service-five.png"
+                  src="/assets/images/services/service-five.png"
                   alt="Service"
                 />
               </div>
@@ -95,7 +95,7 @@ const Index = () => {
               <i className="flaticon-star-symbol" />
               <div className="image">
                 <img
-                  src="assets/images/services/service-five.png"
+                  src="/assets/images/services/service-five.png"
                   alt="Service"
                 />
               </div>
@@ -105,7 +105,7 @@ const Index = () => {
               <i className="flaticon-star-symbol" />
               <div className="image">
                 <img
-                  src="assets/images/services/service-five.png"
+                  src="/assets/images/services/service-five.png"
                   alt="Service"
                 />
               </div>
@@ -115,7 +115,7 @@ const Index = () => {
               <i className="flaticon-star-symbol" />
               <div className="image">
                 <img
-                  src="assets/images/services/service-five.png"
+                  src="/assets/images/services/service-five.png"
                   alt="Service"
                 />
               </div>
@@ -125,7 +125,7 @@ const Index = () => {
               <i className="flaticon-star-symbol" />
               <div className="image">
                 <img
-                  src="assets/images/services/service-five.png"
+                  src="/assets/images/services/service-five.png"
                   alt="Service"
                 />
               </div>
@@ -135,7 +135,7 @@ const Index = () => {
               <i className="flaticon-star-symbol" />
               <div className="image">
                 <img
-                  src="assets/images/services/service-five.png"
+                  src="/assets/images/services/service-five.png"
                   alt="Service"
                 />
               </div>
@@ -145,7 +145,7 @@ const Index = () => {
               <i className="flaticon-star-symbol" />
               <div className="image">
                 <img
-                  src="assets/images/services/service-five.png"
+                  src="/assets/images/services/service-five.png"
                   alt="Service"
                 />
               </div>
@@ -155,7 +155,7 @@ const Index = () => {
               <i className="flaticon-star-symbol" />
               <div className="image">
                 <img
-                  src="assets/images/services/service-five.png"
+                  src="/assets/images/services/service-five.png"
                   alt="Service"
                 />
               </div>
@@ -172,7 +172,7 @@ const Index = () => {
               <div className="about-content-six mb-40 wow fadeInUp delay-0-2s">
                 <div className="about-logo mb-50">
                   <img
-                    src="assets/images/about/circle-text-six.svg"
+                    src="/assets/images/about/circle-text-six.svg"
                     alt="Logo"
                   />
                 </div>
@@ -186,7 +186,7 @@ const Index = () => {
             </div>
             <div className="col-xl-4 col-md-6">
               <div className="about-image-six mb-50 wow fadeInUp delay-0-4s">
-                <img src="assets/images/about/about-six.jpg" alt="About" />
+                <img src="/assets/images/about/about-six.jpg" alt="About" />
               </div>
             </div>
             <div className="col-xl-4 col-md-6">
@@ -359,7 +359,7 @@ const Index = () => {
       <div
         className="video-area-six pt-175 rpt-125 pb-185 rpb-135 bgs-cover"
         style={{
-          backgroundImage: "url(assets/images/background/video-bg.jpg)",
+          backgroundImage: "url(/assets/images/background/video-bg.jpg)",
         }}
       >
         <div className="container">
@@ -377,7 +377,7 @@ const Index = () => {
                   href="https://www.youtube.com/watch?v=9Y7ma241N8k"
                   className="mfp-iframe video-play mt-35"
                 >
-                  <img src="assets/images/icons/play-icon.png" alt="Play" />
+                  <img src="/assets/images/icons/play-icon.png" alt="Play" />
                 </a>
               </div>
               <div className="col-xl-3 col-lg-4">
@@ -408,7 +408,7 @@ const Index = () => {
               <div className="team-member style-four wow fadeInUp delay-0-2s">
                 <div className="image">
                   <img
-                    src="assets/images/team/member-six1.jpg"
+                    src="/assets/images/team/member-six1.jpg"
                     alt="Team Member"
                   />
                 </div>
@@ -441,7 +441,7 @@ const Index = () => {
               <div className="team-member style-four wow fadeInUp delay-0-4s">
                 <div className="image">
                   <img
-                    src="assets/images/team/member-six2.jpg"
+                    src="/assets/images/team/member-six2.jpg"
                     alt="Team Member"
                   />
                 </div>
@@ -474,7 +474,7 @@ const Index = () => {
               <div className="team-member style-four wow fadeInUp delay-0-6s">
                 <div className="image">
                   <img
-                    src="assets/images/team/member-six3.jpg"
+                    src="/assets/images/team/member-six3.jpg"
                     alt="Team Member"
                   />
                 </div>
@@ -507,7 +507,7 @@ const Index = () => {
               <div className="team-member style-four wow fadeInUp delay-0-8s">
                 <div className="image">
                   <img
-                    src="assets/images/team/member-six4.jpg"
+                    src="/assets/images/team/member-six4.jpg"
                     alt="Team Member"
                   />
                 </div>
@@ -608,13 +608,13 @@ const Index = () => {
               <div className="why-choose-right mb-60 style-two style-three wow fadeInLeft delay-0-2s">
                 <div className="image-one mb-30">
                   <img
-                    src="assets/images/services/why-choose1.jpg"
+                    src="/assets/images/services/why-choose1.jpg"
                     alt="Why Choose"
                   />
                 </div>
                 <div className="image-two">
                   <img
-                    src="assets/images/services/why-choose2.jpg"
+                    src="/assets/images/services/why-choose2.jpg"
                     alt="Why Choose"
                   />
                 </div>
@@ -622,7 +622,7 @@ const Index = () => {
                 <div className="text-shape">
                   <img
                     className="text"
-                    src="assets/images/services/web-design-text.svg"
+                    src="/assets/images/services/web-design-text.svg"
                     alt="Web Design Text"
                   />
                 </div>
@@ -751,7 +751,7 @@ const Index = () => {
             <div className="project-item style-five wow fadeInUp delay-0-2s">
               <div className="image">
                 <img
-                  src="assets/images/projects/project-six1.jpg"
+                  src="/assets/images/projects/project-six1.jpg"
                   alt="Project"
                 />
               </div>
@@ -769,7 +769,7 @@ const Index = () => {
             <div className="project-item style-five wow fadeInUp delay-0-3s">
               <div className="image">
                 <img
-                  src="assets/images/projects/project-six2.jpg"
+                  src="/assets/images/projects/project-six2.jpg"
                   alt="Project"
                 />
               </div>
@@ -787,7 +787,7 @@ const Index = () => {
             <div className="project-item style-five wow fadeInUp delay-0-4s">
               <div className="image">
                 <img
-                  src="assets/images/projects/project-six3.jpg"
+                  src="/assets/images/projects/project-six3.jpg"
                   alt="Project"
                 />
               </div>
@@ -805,7 +805,7 @@ const Index = () => {
             <div className="project-item style-five wow fadeInUp delay-0-5s">
               <div className="image">
                 <img
-                  src="assets/images/projects/project-six4.jpg"
+                  src="/assets/images/projects/project-six4.jpg"
                   alt="Project"
                 />
               </div>
@@ -823,7 +823,7 @@ const Index = () => {
             <div className="project-item style-five wow fadeInUp delay-0-6s">
               <div className="image">
                 <img
-                  src="assets/images/projects/project-six5.jpg"
+                  src="/assets/images/projects/project-six5.jpg"
                   alt="Project"
                 />
               </div>
@@ -897,7 +897,7 @@ const Index = () => {
                 className="testimonial-five-image"
                 style={{
                   backgroundImage:
-                    "url(assets/images/testimonials/testimonials-five.jpg)",
+                    "url(/assets/images/testimonials/testimonials-five.jpg)",
                 }}
               />
             </div>
@@ -905,7 +905,7 @@ const Index = () => {
               <div className="testimonial-five-right p-100 py-130 rpy-100 wow fadeInLeft delay-0-2s">
                 <div className="circle-logo-text w-50 mb-65 rmb-35">
                   <img
-                    src="assets/images/about/circle-text.svg"
+                    src="/assets/images/about/circle-text.svg"
                     alt="Circle Text"
                   />
                 </div>
@@ -928,7 +928,7 @@ const Index = () => {
                       <div className="testimonial-author">
                         <div className="author-image">
                           <img
-                            src="assets/images/testimonials/author1.png"
+                            src="/assets/images/testimonials/author1.png"
                             alt="Author Image"
                           />
                         </div>
@@ -960,7 +960,7 @@ const Index = () => {
                       <div className="testimonial-author">
                         <div className="author-image">
                           <img
-                            src="assets/images/testimonials/author1.png"
+                            src="/assets/images/testimonials/author1.png"
                             alt="Author Image"
                           />
                         </div>
@@ -992,7 +992,7 @@ const Index = () => {
                       <div className="testimonial-author">
                         <div className="author-image">
                           <img
-                            src="assets/images/testimonials/author1.png"
+                            src="/assets/images/testimonials/author1.png"
                             alt="Author Image"
                           />
                         </div>
@@ -1024,7 +1024,7 @@ const Index = () => {
                       <div className="testimonial-author">
                         <div className="author-image">
                           <img
-                            src="assets/images/testimonials/author1.png"
+                            src="/assets/images/testimonials/author1.png"
                             alt="Author Image"
                           />
                         </div>
@@ -1069,7 +1069,7 @@ const Index = () => {
             <div className="col-xl-4 col-md-6">
               <div className="blog-item style-five wow fadeInUp delay-0-2s">
                 <div className="image">
-                  <img src="assets/images/blog/blog-six1.jpg" alt="Blog" />
+                  <img src="/assets/images/blog/blog-six1.jpg" alt="Blog" />
                 </div>
                 <div className="content">
                   <ul className="blog-meta">
@@ -1090,7 +1090,7 @@ const Index = () => {
             <div className="col-xl-4 col-md-6">
               <div className="blog-item style-five wow fadeInUp delay-0-4s">
                 <div className="image">
-                  <img src="assets/images/blog/blog-six2.jpg" alt="Blog" />
+                  <img src="/assets/images/blog/blog-six2.jpg" alt="Blog" />
                 </div>
                 <div className="content">
                   <ul className="blog-meta">
@@ -1111,7 +1111,7 @@ const Index = () => {
             <div className="col-xl-4 col-md-6">
               <div className="blog-item style-five wow fadeInUp delay-0-6s">
                 <div className="image">
-                  <img src="assets/images/blog/blog-six3.jpg" alt="Blog" />
+                  <img src="/assets/images/blog/blog-six3.jpg" alt="Blog" />
                 </div>
                 <div className="content">
                   <ul className="blog-meta">
@@ -1158,7 +1158,7 @@ const Index = () => {
               href="contact"
             >
               <img
-                src="assets/images/client-logos/client-logo-six1.png"
+                src="/assets/images/client-logos/client-logo-six1.png"
                 alt="Client Logo"
               />
             </Link>
@@ -1167,7 +1167,7 @@ const Index = () => {
               href="contact"
             >
               <img
-                src="assets/images/client-logos/client-logo-six2.png"
+                src="/assets/images/client-logos/client-logo-six2.png"
                 alt="Client Logo"
               />
             </Link>
@@ -1176,7 +1176,7 @@ const Index = () => {
               href="contact"
             >
               <img
-                src="assets/images/client-logos/client-logo-six3.png"
+                src="/assets/images/client-logos/client-logo-six3.png"
                 alt="Client Logo"
               />
             </Link>
@@ -1185,7 +1185,7 @@ const Index = () => {
               href="contact"
             >
               <img
-                src="assets/images/client-logos/client-logo-six4.png"
+                src="/assets/images/client-logos/client-logo-six4.png"
                 alt="Client Logo"
               />
             </Link>
@@ -1194,7 +1194,7 @@ const Index = () => {
               href="contact"
             >
               <img
-                src="assets/images/client-logos/client-logo-six5.png"
+                src="/assets/images/client-logos/client-logo-six5.png"
                 alt="Client Logo"
               />
             </Link>
@@ -1203,7 +1203,7 @@ const Index = () => {
               href="contact"
             >
               <img
-                src="assets/images/client-logos/client-logo-six6.png"
+                src="/assets/images/client-logos/client-logo-six6.png"
                 alt="Client Logo"
               />
             </Link>
@@ -1212,7 +1212,7 @@ const Index = () => {
               href="contact"
             >
               <img
-                src="assets/images/client-logos/client-logo-six7.png"
+                src="/assets/images/client-logos/client-logo-six7.png"
                 alt="Client Logo"
               />
             </Link>
@@ -1221,7 +1221,7 @@ const Index = () => {
               href="contact"
             >
               <img
-                src="assets/images/client-logos/client-logo-six8.png"
+                src="/assets/images/client-logos/client-logo-six8.png"
                 alt="Client Logo"
               />
             </Link>
@@ -1230,7 +1230,7 @@ const Index = () => {
               href="contact"
             >
               <img
-                src="assets/images/client-logos/client-logo-six9.png"
+                src="/assets/images/client-logos/client-logo-six9.png"
                 alt="Client Logo"
               />
             </Link>
@@ -1239,7 +1239,7 @@ const Index = () => {
               href="contact"
             >
               <img
-                src="assets/images/client-logos/client-logo-six10.png"
+                src="/assets/images/client-logos/client-logo-six10.png"
                 alt="Client Logo"
               />
             </Link>

@@ -1,5 +1,5 @@
 // Pauseitive Tech site content (carried over from the previous website)
-const IMG = "assets/images/pauseitive";
+const IMG = "/assets/images/pauseitive";
 
 export const company = {
   name: "Pauseitive Tech",

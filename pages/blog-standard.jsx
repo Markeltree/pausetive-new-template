@@ -15,7 +15,7 @@ const BlogStandard = () => {
             <div className="col-lg-8">
               <div className="blog-item blog-standard wow fadeInUp delay-0-2s">
                 <div className="image">
-                  <img src="assets/images/blog/blog-standard1.jpg" alt="Blog" />
+                  <img src="/assets/images/blog/blog-standard1.jpg" alt="Blog" />
                 </div>
                 <ul className="blog-meta">
                   <li>
@@ -81,7 +81,7 @@ const BlogStandard = () => {
               </div>
               <div className="blog-item blog-standard blog-video wow fadeInUp delay-0-2s">
                 <div className="image">
-                  <img src="assets/images/blog/blog-standard2.jpg" alt="Blog" />
+                  <img src="/assets/images/blog/blog-standard2.jpg" alt="Blog" />
                   <a
                     href="https://www.youtube.com/watch?v=9Y7ma241N8k"
                     className="mfp-iframe video-play"
@@ -159,7 +159,7 @@ const BlogStandard = () => {
               </div>
               <div className="blog-item blog-standard wow fadeInUp delay-0-2s">
                 <div className="image">
-                  <img src="assets/images/blog/blog-standard3.jpg" alt="Blog" />
+                  <img src="/assets/images/blog/blog-standard3.jpg" alt="Blog" />
                 </div>
                 <ul className="blog-meta">
                   <li>
@@ -244,7 +244,7 @@ const BlogStandard = () => {
                   </form>
                 </div>
                 <div className="widget widget-author wow fadeInUp delay-0-4s">
-                  <img src="assets/images/widget/author.png" alt="Author" />
+                  <img src="/assets/images/widget/author.png" alt="Author" />
                   <h5>Nathan S. Nguyen</h5>
                   <p>
                     We denounce with righteous indignation dislike beguiled and
@@ -311,7 +311,7 @@ const BlogStandard = () => {
                   <ul>
                     <li>
                       <div className="image">
-                        <img src="assets/images/widget/news1.jpg" alt="News" />
+                        <img src="/assets/images/widget/news1.jpg" alt="News" />
                       </div>
                       <div className="content">
                         <h5>
@@ -329,7 +329,7 @@ const BlogStandard = () => {
                     </li>
                     <li>
                       <div className="image">
-                        <img src="assets/images/widget/news2.jpg" alt="News" />
+                        <img src="/assets/images/widget/news2.jpg" alt="News" />
                       </div>
                       <div className="content">
                         <h5>
@@ -348,7 +348,7 @@ const BlogStandard = () => {
                     </li>
                     <li>
                       <div className="image">
-                        <img src="assets/images/widget/news3.jpg" alt="News" />
+                        <img src="/assets/images/widget/news3.jpg" alt="News" />
                       </div>
                       <div className="content">
                         <h5>
@@ -401,7 +401,7 @@ const BlogStandard = () => {
                     <Link legacyBehavior href="/blog">
                       <a>
                         <img
-                          src="assets/images/widget/gallery1.jpg"
+                          src="/assets/images/widget/gallery1.jpg"
                           alt="Gallery"
                         />
                         <i className="far fa-arrow-right" />
@@ -410,7 +410,7 @@ const BlogStandard = () => {
                     <Link legacyBehavior href="/blog">
                       <a>
                         <img
-                          src="assets/images/widget/gallery2.jpg"
+                          src="/assets/images/widget/gallery2.jpg"
                           alt="Gallery"
                         />
                         <i className="far fa-arrow-right" />
@@ -419,7 +419,7 @@ const BlogStandard = () => {
                     <Link legacyBehavior href="/blog">
                       <a>
                         <img
-                          src="assets/images/widget/gallery3.jpg"
+                          src="/assets/images/widget/gallery3.jpg"
                           alt="Gallery"
                         />
                         <i className="far fa-arrow-right" />
@@ -428,7 +428,7 @@ const BlogStandard = () => {
                     <Link legacyBehavior href="/blog">
                       <a>
                         <img
-                          src="assets/images/widget/gallery4.jpg"
+                          src="/assets/images/widget/gallery4.jpg"
                           alt="Gallery"
                         />
                         <i className="far fa-arrow-right" />
@@ -437,7 +437,7 @@ const BlogStandard = () => {
                     <Link legacyBehavior href="/blog">
                       <a>
                         <img
-                          src="assets/images/widget/gallery5.jpg"
+                          src="/assets/images/widget/gallery5.jpg"
                           alt="Gallery"
                         />
                         <i className="far fa-arrow-right" />
@@ -446,7 +446,7 @@ const BlogStandard = () => {
                     <Link legacyBehavior href="/blog">
                       <a>
                         <img
-                          src="assets/images/widget/gallery6.jpg"
+                          src="/assets/images/widget/gallery6.jpg"
                           alt="Gallery"
                         />
                         <i className="far fa-arrow-right" />

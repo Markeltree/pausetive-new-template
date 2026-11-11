@@ -15,7 +15,7 @@ const Projects = () => {
               <div className="project-item">
                 <div className="image wow fadeInUp delay-0-2s">
                   <img
-                    src="assets/images/projects/project-grid1.jpg"
+                    src="/assets/images/projects/project-grid1.jpg"
                     alt="Project Grid"
                   />
                   <Link legacyBehavior href="/project-details">
@@ -42,7 +42,7 @@ const Projects = () => {
               <div className="project-item">
                 <div className="image wow fadeInUp delay-0-2s">
                   <img
-                    src="assets/images/projects/project-grid2.jpg"
+                    src="/assets/images/projects/project-grid2.jpg"
                     alt="Project Grid"
                   />
                   <Link legacyBehavior href="/project-details">
@@ -69,7 +69,7 @@ const Projects = () => {
               <div className="project-item">
                 <div className="image wow fadeInUp delay-0-2s">
                   <img
-                    src="assets/images/projects/project-grid3.jpg"
+                    src="/assets/images/projects/project-grid3.jpg"
                     alt="Project Grid"
                   />
                   <Link legacyBehavior href="/project-details">
@@ -96,7 +96,7 @@ const Projects = () => {
               <div className="project-item">
                 <div className="image wow fadeInUp delay-0-2s">
                   <img
-                    src="assets/images/projects/project-grid4.jpg"
+                    src="/assets/images/projects/project-grid4.jpg"
                     alt="Project Grid"
                   />
                   <Link legacyBehavior href="/project-details">
@@ -123,7 +123,7 @@ const Projects = () => {
               <div className="project-item">
                 <div className="image wow fadeInUp delay-0-2s">
                   <img
-                    src="assets/images/projects/project-grid5.jpg"
+                    src="/assets/images/projects/project-grid5.jpg"
                     alt="Project Grid"
                   />
                   <Link legacyBehavior href="/project-details">
@@ -150,7 +150,7 @@ const Projects = () => {
               <div className="project-item">
                 <div className="image wow fadeInUp delay-0-2s">
                   <img
-                    src="assets/images/projects/project-grid6.jpg"
+                    src="/assets/images/projects/project-grid6.jpg"
                     alt="Project Grid"
                   />
                   <Link legacyBehavior href="/project-details">
@@ -177,7 +177,7 @@ const Projects = () => {
               <div className="project-item">
                 <div className="image wow fadeInUp delay-0-2s">
                   <img
-                    src="assets/images/projects/project-grid7.jpg"
+                    src="/assets/images/projects/project-grid7.jpg"
                     alt="Project Grid"
                   />
                   <Link legacyBehavior href="/project-details">
@@ -204,7 +204,7 @@ const Projects = () => {
               <div className="project-item">
                 <div className="image wow fadeInUp delay-0-2s">
                   <img
-                    src="assets/images/projects/project-grid8.jpg"
+                    src="/assets/images/projects/project-grid8.jpg"
                     alt="Project Grid"
                   />
                   <Link legacyBehavior href="/project-details">

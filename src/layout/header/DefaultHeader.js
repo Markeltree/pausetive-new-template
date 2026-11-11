@@ -14,7 +14,7 @@ const DefaultHeader = ({ singleMenu }) => {
                 <Link legacyBehavior href="/">
                   <a>
                     <img
-                      src="assets/images/logos/pauseitive-logo.png"
+                      src="/assets/images/logos/pauseitive-logo.png"
                       alt="Pauseitive Tech"
                       title="Pauseitive Tech"
                     />
@@ -34,7 +34,7 @@ const DefaultHeader = ({ singleMenu }) => {
               {/* menu sidbar */}
               <div className="menu-sidebar">
                 <button>
-                  <img src="assets/images/icons/toggler.svg" alt="Toggler" />
+                  <img src="/assets/images/icons/toggler.svg" alt="Toggler" />
                 </button>
               </div>
             </div>

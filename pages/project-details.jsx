@@ -6,7 +6,7 @@ const ProjectDetails = () => {
       {/* Page Banner Section Start */}
       <section
         className="page-banner pt-210 rpt-150 pb-75 rel z-1"
-        style={{ backgroundImage: "url(assets/images/hero/hero-two-bg.png)" }}
+        style={{ backgroundImage: "url(/assets/images/hero/hero-two-bg.png)" }}
       >
         <div className="container container-1290">
           <div className="row">
@@ -15,7 +15,7 @@ const ProjectDetails = () => {
                 Software Development
                 <img
                   className="mxw-10 leaf"
-                  src="assets/images/banner/leaf-small.png"
+                  src="/assets/images/banner/leaf-small.png"
                   alt="Leaf"
                 />
               </h1>
@@ -39,7 +39,7 @@ const ProjectDetails = () => {
         <div className="container-fluid">
           <div className="image wow fadeInUp delay-0-2s">
             <img
-              src="assets/images/projects/project-details.jpg"
+              src="/assets/images/projects/project-details.jpg"
               alt="Project"
             />
           </div>
@@ -99,7 +99,7 @@ const ProjectDetails = () => {
             <div className="col-lg-6">
               <div className="image mb-30 wow fadeInUp delay-0-2s">
                 <img
-                  src="assets/images/projects/project-middle1.jpg"
+                  src="/assets/images/projects/project-middle1.jpg"
                   alt="Project"
                 />
               </div>
@@ -107,7 +107,7 @@ const ProjectDetails = () => {
             <div className="col-lg-6">
               <div className="image mb-30 wow fadeInUp delay-0-4s">
                 <img
-                  src="assets/images/projects/project-middle2.jpg"
+                  src="/assets/images/projects/project-middle2.jpg"
                   alt="Project"
                 />
               </div>
@@ -148,7 +148,7 @@ const ProjectDetails = () => {
           <div className="next-prev-post pt-110 rpt-80 pb-100 rpb-70">
             <div className="prev-post wow fadeInLeft delay-0-2s">
               <div className="image">
-                <img src="assets/images/projects/prev-project.jpg" alt="Prev" />
+                <img src="/assets/images/projects/prev-project.jpg" alt="Prev" />
               </div>
               <div className="content">
                 <h4>
@@ -177,7 +177,7 @@ const ProjectDetails = () => {
                 </Link>
               </div>
               <div className="image">
-                <img src="assets/images/projects/next-project.jpg" alt="Next" />
+                <img src="/assets/images/projects/next-project.jpg" alt="Next" />
               </div>
             </div>
           </div>

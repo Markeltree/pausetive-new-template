@@ -5,7 +5,7 @@ const E404 = () => {
     <Layout dark>
       <section
         className="error-section pt-220 rpt-120 pb-100 rpb-80 rel z-1"
-        style={{ backgroundImage: "url(assets/images/hero/hero-two-bg.png)" }}
+        style={{ backgroundImage: "url(/assets/images/hero/hero-two-bg.png)" }}
       >
         <div className="container container-1290">
           <div className="row align-items-center">
@@ -36,7 +36,7 @@ const E404 = () => {
             <div className="col-lg-7">
               <div className="error-image wow zoomIn delay-0-2s">
                 <img
-                  src="assets/images/background/404-error.png"
+                  src="/assets/images/background/404-error.png"
                   alt="404 Error"
                 />
               </div>

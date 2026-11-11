@@ -5,7 +5,7 @@ const Footer4 = ({ dark }) => {
     <footer
       className="main-footer footer-four pt-100 rel bgs-cover z-1"
       style={{
-        backgroundImage: "url(assets/images/footer/footer-bg-shape-three.png)",
+        backgroundImage: "url(/assets/images/footer/footer-bg-shape-three.png)",
       }}
     >
       <div className="container container-1290 pb-40">
@@ -78,8 +78,8 @@ const Footer4 = ({ dark }) => {
                     <img
                       src={
                         dark
-                          ? "assets/images/logos/footer-logo-white.png"
-                          : "assets/images/logos/footer-logo.png"
+                          ? "/assets/images/logos/footer-logo-white.png"
+                          : "/assets/images/logos/footer-logo.png"
                       }
                       alt="Logo"
                     />

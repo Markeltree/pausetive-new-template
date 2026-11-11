@@ -124,7 +124,7 @@ const Pricing = () => {
         className="pricing-area-three pb-85 rpb-55"
         style={{
           backgroundImage:
-            "url(assets/images/background/pricing-bg-dot-shape.png)",
+            "url(/assets/images/background/pricing-bg-dot-shape.png)",
         }}
       >
         <div className="container container-1290">

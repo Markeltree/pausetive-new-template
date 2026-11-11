@@ -24,14 +24,14 @@ const IndexSingle = () => {
             </div>
             <div className="col-lg-4">
               <div className="hero-right-image mt-20 wow fadeInUp delay-0-4s">
-                <img src="assets/images/hero/hero-right.png" alt="Hero" />
+                <img src="/assets/images/hero/hero-right.png" alt="Hero" />
               </div>
             </div>
           </div>
         </div>
         <div className="container-fluid">
           <div className="hero-bottom-image">
-            <img src="assets/images/hero/hero.jpg" alt="Hero" />
+            <img src="/assets/images/hero/hero.jpg" alt="Hero" />
             <div className="hero-social">
               <a href="#">
                 <i className="fab fa-facebook-f" /> <span>Facebook</span>
@@ -49,7 +49,7 @@ const IndexSingle = () => {
           </div>
         </div>
         <div className="hero-bg">
-          <img src="assets/images/hero/hero-bg.png" alt="lines" />
+          <img src="/assets/images/hero/hero-bg.png" alt="lines" />
         </div>
       </section>
       {/* Hero Section End */}
@@ -60,7 +60,7 @@ const IndexSingle = () => {
             <div className="col-xl-5 col-lg-3">
               <div className="about-image rmb-45 wow fadeInUp delay-0-2s">
                 <img
-                  src="assets/images/about/circle-text.svg"
+                  src="/assets/images/about/circle-text.svg"
                   alt="Circle Text"
                 />
               </div>
@@ -172,7 +172,7 @@ const IndexSingle = () => {
             <div className="col-xl-6">
               <div className="what-we-do-image mb-55 wow fadeInRight delay-0-2s">
                 <img
-                  src="assets/images/services/what-we-do.jpg"
+                  src="/assets/images/services/what-we-do.jpg"
                   alt="What We Do"
                 />
               </div>
@@ -240,7 +240,7 @@ const IndexSingle = () => {
                       <a>Web Design From Figma</a>
                     </Link>
                   </h5>
-                  <img src="assets/images/services/icon1.png" alt="Icon" />
+                  <img src="/assets/images/services/icon1.png" alt="Icon" />
                 </div>
                 <div className="content">
                   <p>We denounce with righteous indignation dislike beguile</p>
@@ -261,7 +261,7 @@ const IndexSingle = () => {
                       <a>PSD, Figma, XD to HTML Convert</a>
                     </Link>
                   </h5>
-                  <img src="assets/images/services/icon2.png" alt="Icon" />
+                  <img src="/assets/images/services/icon2.png" alt="Icon" />
                 </div>
                 <div className="content">
                   <p>At vero eos et accusamus et dignissim ducimbl ditiis</p>
@@ -282,7 +282,7 @@ const IndexSingle = () => {
                       <a>WordPress Development</a>
                     </Link>
                   </h5>
-                  <img src="assets/images/services/icon3.png" alt="Icon" />
+                  <img src="/assets/images/services/icon3.png" alt="Icon" />
                 </div>
                 <div className="content">
                   <p>To take trivial example which ever undertakes laborious</p>
@@ -303,7 +303,7 @@ const IndexSingle = () => {
                       <a>React Development</a>
                     </Link>
                   </h5>
-                  <img src="assets/images/services/icon4.png" alt="Icon" />
+                  <img src="/assets/images/services/icon4.png" alt="Icon" />
                 </div>
                 <div className="content">
                   <p>Sed persiciatis unde omnisey natus error voluptatem</p>
@@ -363,7 +363,7 @@ const IndexSingle = () => {
             </div>
             <div className="image">
               <img
-                src="assets/images/projects/project-timeline1.jpg"
+                src="/assets/images/projects/project-timeline1.jpg"
                 alt="Project TimeLine Image"
               />
             </div>
@@ -386,7 +386,7 @@ const IndexSingle = () => {
             </div>
             <div className="image">
               <img
-                src="assets/images/projects/project-timeline2.jpg"
+                src="/assets/images/projects/project-timeline2.jpg"
                 alt="Project TimeLine Image"
               />
             </div>
@@ -409,7 +409,7 @@ const IndexSingle = () => {
             </div>
             <div className="image">
               <img
-                src="assets/images/projects/project-timeline3.jpg"
+                src="/assets/images/projects/project-timeline3.jpg"
                 alt="Project TimeLine Image"
               />
             </div>
@@ -441,7 +441,7 @@ const IndexSingle = () => {
             <div className="col">
               <div className="team-member wow fadeInUp delay-0-2s">
                 <div className="image">
-                  <img src="assets/images/team/member1.jpg" alt="Team Member" />
+                  <img src="/assets/images/team/member1.jpg" alt="Team Member" />
                 </div>
                 <div className="content">
                   <h4>Patrick V. Schroeder</h4>
@@ -479,7 +479,7 @@ const IndexSingle = () => {
             <div className="col">
               <div className="team-member wow fadeInUp delay-0-3s">
                 <div className="image">
-                  <img src="assets/images/team/member2.jpg" alt="Team Member" />
+                  <img src="/assets/images/team/member2.jpg" alt="Team Member" />
                 </div>
                 <div className="content">
                   <h4>Michael A. Braun</h4>
@@ -517,7 +517,7 @@ const IndexSingle = () => {
             <div className="col">
               <div className="team-member wow fadeInUp delay-0-4s">
                 <div className="image">
-                  <img src="assets/images/team/member3.jpg" alt="Team Member" />
+                  <img src="/assets/images/team/member3.jpg" alt="Team Member" />
                 </div>
                 <div className="content">
                   <h4>James V. Decastro</h4>
@@ -555,7 +555,7 @@ const IndexSingle = () => {
             <div className="col">
               <div className="team-member wow fadeInUp delay-0-5s">
                 <div className="image">
-                  <img src="assets/images/team/member4.jpg" alt="Team Member" />
+                  <img src="/assets/images/team/member4.jpg" alt="Team Member" />
                 </div>
                 <div className="content">
                   <h4>Troy V. Richardson</h4>
@@ -593,7 +593,7 @@ const IndexSingle = () => {
             <div className="col">
               <div className="team-member wow fadeInUp delay-0-6s">
                 <div className="image">
-                  <img src="assets/images/team/member5.jpg" alt="Team Member" />
+                  <img src="/assets/images/team/member5.jpg" alt="Team Member" />
                 </div>
                 <div className="content">
                   <h4>Michael A. Braun</h4>
@@ -660,7 +660,7 @@ const IndexSingle = () => {
                 className="pricing-banner"
                 style={{
                   backgroundImage:
-                    "url(assets/images/background/pricing-banner-bg.jpg)",
+                    "url(/assets/images/background/pricing-banner-bg.jpg)",
                 }}
               >
                 <span className="join-us">Join With Us</span>
@@ -672,7 +672,7 @@ const IndexSingle = () => {
                 </Link>
                 <div className="hand-shape">
                   <img
-                    src="assets/images/shapes/pricing-banner-hand-shape.png"
+                    src="/assets/images/shapes/pricing-banner-hand-shape.png"
                     alt="Pricing Banner Shape"
                   />
                 </div>
@@ -683,12 +683,12 @@ const IndexSingle = () => {
                 className="pricing-plan-item style-three"
                 style={{
                   backgroundImage:
-                    "url(assets/images/shapes/pricing-plan-bg.png)",
+                    "url(/assets/images/shapes/pricing-plan-bg.png)",
                 }}
               >
                 <div className="icon-title">
                   <div className="icon">
-                    <img src="assets/images/icons/price.svg" alt="Icon" />
+                    <img src="/assets/images/icons/price.svg" alt="Icon" />
                   </div>
                   <h5>Monthly Package</h5>
                 </div>
@@ -709,7 +709,7 @@ const IndexSingle = () => {
                     <span className="before">$</span>
                     <span className="price">18.3</span>
                   </span>
-                  <img src="assets/images/shapes/right-arrow.png" alt="Arrow" />
+                  <img src="/assets/images/shapes/right-arrow.png" alt="Arrow" />
                   <span className="offer-text">Save 15%</span>
                 </div>
                 <Link legacyBehavior href="/pricing">
@@ -724,12 +724,12 @@ const IndexSingle = () => {
                 className="pricing-plan-item style-three"
                 style={{
                   backgroundImage:
-                    "url(assets/images/shapes/pricing-plan-bg.png)",
+                    "url(/assets/images/shapes/pricing-plan-bg.png)",
                 }}
               >
                 <div className="icon-title">
                   <div className="icon">
-                    <img src="assets/images/icons/price.svg" alt="Icon" />
+                    <img src="/assets/images/icons/price.svg" alt="Icon" />
                   </div>
                   <h5>Yearly Package</h5>
                 </div>
@@ -750,7 +750,7 @@ const IndexSingle = () => {
                     <span className="before">$</span>
                     <span className="price">18.3</span>
                   </span>
-                  <img src="assets/images/shapes/right-arrow.png" alt="Arrow" />
+                  <img src="/assets/images/shapes/right-arrow.png" alt="Arrow" />
                   <span className="offer-text">Save 15%</span>
                 </div>
                 <Link legacyBehavior href="/pricing">
@@ -771,7 +771,7 @@ const IndexSingle = () => {
             <div className="col-xl-7">
               <div className="why-choose-left-image mb-40 wow fadeInLeft delay-0-2s">
                 <img
-                  src="assets/images/services/why-choose-left.jpg"
+                  src="/assets/images/services/why-choose-left.jpg"
                   alt="Why Choose Left Image"
                 />
               </div>
@@ -995,7 +995,7 @@ const IndexSingle = () => {
             <div className="col-lg-6">
               <div className="testimonials-three-image wow fadeInRight delay-0-2s">
                 <img
-                  src="assets/images/testimonials/testimonials-three.jpg"
+                  src="/assets/images/testimonials/testimonials-three.jpg"
                   alt="Testimonials"
                 />
               </div>
@@ -1020,7 +1020,7 @@ const IndexSingle = () => {
             <div className="col-xl-4 col-md-6">
               <div className="blog-item wow fadeInUp delay-0-2s">
                 <div className="image">
-                  <img src="assets/images/blog/blog1.jpg" alt="Blog" />
+                  <img src="/assets/images/blog/blog1.jpg" alt="Blog" />
                 </div>
                 <ul className="blog-meta">
                   <li>
@@ -1048,7 +1048,7 @@ const IndexSingle = () => {
             <div className="col-xl-4 col-md-6">
               <div className="blog-item wow fadeInUp delay-0-4s">
                 <div className="image">
-                  <img src="assets/images/blog/blog2.jpg" alt="Blog" />
+                  <img src="/assets/images/blog/blog2.jpg" alt="Blog" />
                 </div>
                 <ul className="blog-meta">
                   <li>
@@ -1078,7 +1078,7 @@ const IndexSingle = () => {
             <div className="col-xl-4 col-md-6">
               <div className="blog-item wow fadeInUp delay-0-6s">
                 <div className="image">
-                  <img src="assets/images/blog/blog3.jpg" alt="Blog" />
+                  <img src="/assets/images/blog/blog3.jpg" alt="Blog" />
                 </div>
                 <ul className="blog-meta">
                   <li>

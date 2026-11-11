@@ -1,6 +1,5 @@
 import { services } from "@/src/data/pauseitive";
 
-// Template "headline-area bgc-primary" marquee, filled with the service names
 const Marquee = () => {
   const items = [...services, ...services];
   return (
